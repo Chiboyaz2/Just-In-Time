@@ -30,7 +30,7 @@ const Navbar = () => {
             </a>
 
             <a href="#home" className='p-3 hover:bg-[#2F7F93]'>
-                services
+                services 
             </a>
 
             <a href="#home" className='p-3 hover:bg-[#2F7F93]'>
