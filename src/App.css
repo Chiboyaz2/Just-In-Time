@@ -100,3 +100,186 @@
   z-index: 2;
 }
 
+
+.team-one {
+  position: relative;
+  background-image: url(./images/team-one.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.team-one::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(47, 127, 147, 0.5); /* Light gray with 60% opacity */
+  z-index: 1;
+}
+
+.team-one:hover::before {
+  background-color: rgba(0, 0, 0, 0.3); /* Reduced opacity on hover */
+}
+
+.team-one-content {
+  position: relative;
+  z-index: 2;
+}
+
+
+.team-two {
+  position: relative;
+  background-image: url(./images/team-two.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.team-two::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(47, 127, 147, 0.5); /* Light gray with 60% opacity */
+  z-index: 1;
+}
+
+.team-two:hover::before {
+  background-color: rgba(0, 0, 0, 0.3); /* Reduced opacity on hover */
+}
+
+.team-two-content {
+  position: relative;
+  z-index: 2;
+}
+
+.team-three {
+  position: relative;
+  background-image: url(./images/team-three.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: background-position 0.3s ease; /* Smooth transition */
+}
+
+.team-three::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(47, 127, 147, 0.5); /* Initial overlay */
+  z-index: 1;
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.team-three:hover {
+  background-position: left center; /* Move background to the left */
+}
+
+.team-three:hover::before {
+  background-color: rgba(0, 0, 0, 0.3); /* Reduced overlay opacity on hover */
+}
+
+.team-three-content {
+  position: relative;
+  z-index: 2;
+}
+
+
+.skills {
+  position: relative;
+  background-image: url(./images/skills.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.skills::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Light gray with 60% opacity */
+  z-index: 1;
+}
+
+.skills:hover::before {
+  background-color: rgba(0, 0, 0, 0.5); /* Reduced opacity on hover */
+}
+
+.skills-content {
+  position: relative;
+  z-index: 2;
+}
+
+
+.one-end {
+  background: linear-gradient(320deg, transparent 55px, #2F7F93 0);
+}
+
+
+.hero1 {
+  position: relative;
+  background-image: url(./images/hero1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); 
+  z-index: 1;
+}
+
+.hero1-content {
+  position: relative;
+  z-index: 2;
+}
+
+
+.hero2 {
+  position: relative;
+  background-image: url(./images/hero2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); 
+  z-index: 1;
+}
+
+.hero2-content {
+  position: relative;
+  z-index: 2;
+}
+
+.hero1, .hero2 {
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.hero1-content, .hero2-content {
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}

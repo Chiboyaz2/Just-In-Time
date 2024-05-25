@@ -7,15 +7,19 @@ import Hero from './components/Hero';
 import Offer from './components/Offer';
 import Professional from './components/Professional';
 import Services from './components/Services';
+import Skills from './components/Skills';
+import Team from './components/Team';
 
 function App() {
   return (
     <div className="w-full">
       <Hero/>
+      <Team />
       <About />
       <Offer/>
       <Services />
       <Choose />
+      <Skills />
       <Professional />
       <Contact />
       <Footer />
