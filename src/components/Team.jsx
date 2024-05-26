@@ -8,11 +8,11 @@ const Team = () => {
            md:py-6 md:w-1/3'>
                 <div className='team-one-content flex flex-col gap-3'>
                     <p className='mt-16 text-xl uppercase font-semibold'>
-                    Tailored Security Solutions
+                    Customized Financial Expertise
                     </p>
 
                     <p className='font-medium'>
-                    Our team of experts can design and implement a security plan that fits your specific requirements.
+                    JiT Accountants is an independent firm of chartered accountants dedicated to helping you and your company achieve the highest level of profitability. We offer trusted and tailored solutions to meet the unique demands of our diverse clientele, ensuring top-notch service across England and Wales.
                     </p>
                 </div> 
            </div>
@@ -21,13 +21,11 @@ const Team = () => {
            md:py-6 md:w-1/3'>
                 <div className='team-two-content flex flex-col gap-3'>
                     <p className='mt-16 text-xl uppercase font-semibold'>
-                    Professional Team
+                    Comprehensive Accounting Services
                     </p>
 
                     <p className='font-medium'>
-                    With five years of experience in the industry, 
-                    G10 Security Services has a team of highly 
-                    skilled and trained professionals who are experts in their field.
+                    Serving Small and Medium Scale Enterprises across England and Wales, JiT Accountants provides a wide range of services customized to your needs. Whether you are a start-up, an established firm, or a sole proprietor, we handle all complex tax and accounting matters, letting you focus on your core business activities.
                     </p>
                 </div> 
            </div>
@@ -36,13 +34,11 @@ const Team = () => {
            md:py-6 md:w-1/3'>
                 <div className='team-three-content flex flex-col gap-3'>
                     <p className='mt-16 text-xl uppercase font-semibold'>
-                    Cutting-Edge Technology
+                    Trusted Financial Advisors
                     </p>
 
                     <p className='font-medium'>
-                    G10 Security Services is committed to staying at 
-                    the forefront of technology to provide the most 
-                    advanced and effective solutions.
+                    At JiT Accountants, our success is built on providing better options and wise counsel to our clients. With a growing clientele based primarily on recommendations, we ensure that our personalized services add value and sustainability to your business, no matter your industry or business size.
                     </p>
                 </div> 
            </div>

@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import RemoveRedEyeOutlinedIcon from '@mui/icons-material/RemoveRedEyeOutlined';
 import CrisisAlertOutlinedIcon from '@mui/icons-material/CrisisAlertOutlined';
-import Woman from '../images/woman.jpg'
+import aboutUs from '../images/about-us.jpg'
 
 const About = () => {
     const [count, setCount] = useState(0);
 
     useEffect(() => {
-        const duration = 5 * 1000; // 10 seconds
-        const targetCount = 5;
+        const duration = 8 * 1000; // 10 seconds
+        const targetCount = 30;
         const intervalTime = duration / targetCount;
         
         let currentCount = 1;
@@ -25,12 +25,12 @@ const About = () => {
 
     return ( 
         <div className='flex flex-col-reverse gap-6 p-6 mb-10 lg:p-14
-        xl:flex-row xl:items-center'>
+        xl:flex-row xl:items-center' id='about-us'>
             <div className='w-full flex flex-col gap-6 
             md:flex-row md:items-center xl:w-1/2'>
                 
                 <div className='relative w-full md:w-full xl:h-[500px]'>
-                    <img src={Woman} alt="" className='lg:h-full w-full'/>
+                    <img src={aboutUs} alt="" className='lg:h-full w-full'/>
 
                     <div className='absolute right-[-15px] top-[-15px] shadow-xl shadow-gray-700 bg-white py-3 px-6
                     flex flex-col gap-1 items-center'>
@@ -58,14 +58,17 @@ const About = () => {
                 </div>
 
                 <p className='uppercase text-xl text-[#392929] font-semibold tracking-wider'>
-                Specifically designed to help businesses thrive
+                Expert Financial Guidance for Business Success
                 </p>
 
-                <p className='text-[#7E7E7E] tracking-wider font-medium lg:w-1/2'>
-                G10 Security Services is a new security services company with a 
-                fresh approach to protecting people and businesses. 
-                With our experience and innovative solutions, 
-                we are poised to be a leader in the industry.
+                <p className='text-[#7E7E7E] tracking-wider font-medium '>
+                We are a team of highly qualified, committed, and professional chartered accountants with over 30 years of cumulative experience.  We offer a wide range of accounting, tax, and business advising services to help our clients navigate the complex financial landscape of today's corporate environment. Our main goal is to deliver timely and exceptional high-quality service in order to meet the demands of our Stakeholders.
+                <br />
+                We take great pleasure in establishing and maintaining dependable connections with our clients that allow them to succeed and increase the value of their businesses through timely and personalised advice.
+                <br />
+                Our clientele spans the whole of England which are Small and Medium Scale Enterprises. We are dedicated to offering top-notch service that is customised to meet each client's unique demands.
+                <br />
+                You can be rest assured that JiT accountants will provide you with wise counsel that will add value the sustainability of your business.
                 </p>
 
                 <div className='mt-3  flex w-full flex-col gap-3 border-l border-[#292929]
@@ -77,12 +80,11 @@ const About = () => {
 
                     <div className='flex flex-col gap-1 text-[#292929]'>
                       <p className='text-xl font-semibold uppercase tracking-wider'>
-                      Vision
+                      Vision statement
                       </p>
 
                       <p className='font-medium'>
-                      To continuously innovate and improve our 
-                      services to meet the evolving needs of our customers.
+                      To be recognized as global accounting service with timely response to clients’ needs. 
                       </p>
                     </div>
                   </div>
@@ -95,21 +97,20 @@ const About = () => {
 
                     <div className='flex flex-col gap-1 text-[#292929]'>
                       <p className=' text-xl font-semibold uppercase tracking-wider'>
-                      Mission
+                      STATEMENT OF PURPOSE
                       </p>
 
                       <p className='font-medium'>
-                      To be a leader in our industry by consistently
-                      exceeding customer expectations.
+                      Adding value to clients’ businesses through timely provision of trusted professional services that will exceed the expectations of our stakeholders.
                       </p>
                     </div>
                   </div>
                 </div>
 
-                <button className='py-3  bg-[#2F7F93] text-white font-medium uppercase w-1/2 mt-3 
+                {/* <button className='py-3  bg-[#2F7F93] text-white font-medium uppercase w-1/2 mt-3 
                 md:w-1/4 xl:w-1/3'>
                   discover more 
-                </button>
+                </button> */}
             </div>
         </div>
     )

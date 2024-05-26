@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
     return (
-        <div className='p-6 contact w-full lg:p-14'>
+        <div className='p-6 contact w-full lg:p-14' id='contact'>
           <div className='contact-content w-full flex flex-col gap-4 
           md:flex-row md:items-start'>
             <form action="" className='flex flex-col gap-4 w-full text-[#8E8E8E] 

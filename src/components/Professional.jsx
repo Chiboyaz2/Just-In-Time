@@ -6,7 +6,7 @@ import PIC4 from '../images/pic-4.jpg'
 
 const Professional = () => {
     return (
-        <div className='w-full flex flex-col gap-2 p-6 items-center text-center lg:p-14'>
+        <div className='w-full flex flex-col gap-2 p-6 items-center text-center lg:p-14' id='team'>
             <p className='italic text-[#1F5961] font-semibold tracking-wider'>
             Meet Our Team
             </p>

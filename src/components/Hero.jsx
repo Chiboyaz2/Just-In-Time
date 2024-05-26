@@ -7,6 +7,16 @@ import Navbar from './Navbar';
 const Hero = () => {
     const [heroClass, setHeroClass] = useState('hero2');
     const [contentClass, setContentClass] = useState('hero2-content');
+    const [currentParagraph, setCurrentParagraph] = useState(0);
+
+    const paragraphs = [
+        "JiT Accountants is an independent firm of chartered accountants who is dedicated to helping you and your company achieve the highest level of profitability. The ability to provide trusted and better options to our clients is the foundation of our success.",
+        "Our clientele spans the whole of England and Wales. These are Small and Medium Scale Enterprises. We are dedicated to offering top-notch service that is customised to meet each client's unique demands.",
+        "Our clientele is growing primarily because of recommendations from previous customers.",
+        "We offer a wide range of services that are customised to meet your needs, regardless of whether you are a start-up, an established firm, a freelancer, contractor, consultant, landlord, a sole proprietor, partnership or corporate.",
+        "We recognise how essential your time is, therefore let us handle the complicated tax related matters and accounting.",
+        "You can be rest assured that JiT accountants will provide you with wise counsel that will add value the sustainability of your business."
+    ];
 
     useEffect(() => {
         const interval = setInterval(() => {
@@ -17,10 +27,18 @@ const Hero = () => {
         return () => clearInterval(interval); // Cleanup interval on component unmount
     }, []);
 
+    useEffect(() => {
+        const paragraphInterval = setInterval(() => {
+            setCurrentParagraph(prevParagraph => (prevParagraph + 1) % paragraphs.length);
+        }, 5000);
+
+        return () => clearInterval(paragraphInterval); // Cleanup interval on component unmount
+    }, []);
+
     return (
-        <div className='flex flex-col gap-6 w-full tracking-wider'>
-           <div className='w-full flex items-center justify-between p-6 lg:px-14'>
-               <img src={Logo} alt="" className='w-40 h-40'/>
+        <div className='flex flex-col gap-6 w-full tracking-wider' id='hero'>
+            <div className='w-full flex items-center justify-between p-6 lg:px-14'>
+                <img src={Logo} alt="" className='w-40 h-40'/>
 
                 <div className='hidden md:flex items-center gap-8'>
                     <div className='flex gap-3'>
@@ -55,9 +73,9 @@ const Hero = () => {
                         </div>
                     </div>
                 </div>
-           </div> 
+            </div> 
 
-           <div className={`${heroClass} px-6 py-20 text-white lg:px-14 xl:py-32 relative`}>
+            <div className={`${heroClass} px-6 py-20 text-white lg:px-14 xl:py-32 relative`}>
                 <div className='absolute top-[-30px] left-[20px] bg-[#000] z-20 w-11/12
                 lg:left-[40px] xl:left-[60px]'>
                     <Navbar />
@@ -68,25 +86,27 @@ const Hero = () => {
                     <div className='flex flex-row gap-2 items-center'>
                         <div className='w-20 h-[2px] bg-[#2F7F93] rounded'></div>
                         <p className='text-[#2F7F93] italic font-semibold'>
-                        Safety and Security
+                        Just In Time Accountants
                         </p>
                     </div>
 
                     <p className='uppercase text-2xl font-semibold lg:text-4xl xl:text-5xl leading-7'>
-                    Working together for your Business
+                    Customized Accounting for Your Business Success
                     </p>
 
-                    <p className='font-medium'>
-                    The premier security services company with over five years of experience in safeguarding businesses and individuals
-                    </p>
+                    <div>
+                        <p className='font-medium text-lg'>
+                            {paragraphs[currentParagraph]}
+                        </p>
+                    </div>
 
-                    <button className='px-6 py-3 bg-[#2F7F93] uppercase font-medium'>
-                        Learn More
-                    </button>
+                    <a href='#about-us' className='px-6 py-3 bg-[#2F7F93] uppercase font-medium'>
+                        about us 
+                    </a>
                 </div>
-           </div>
+            </div>
         </div>
-    )
+    );
 }
 
 export default Hero;

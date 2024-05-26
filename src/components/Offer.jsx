@@ -10,19 +10,27 @@ const Offer = () => {
                 md:w-1/2 xl:pr-20'>
                     <p className='text-2xl font-semibold uppercase
                     xl:text-3xl'>
-                    Professional security with reliable service
+                    CORE VALUE
                     </p>
 
-                    <p className='font-medium'>
-                    At G10 Security Services, we believe that professional 
-                    security should be about more than just protecting your business. 
-                    That’s why we take a holistic approach, providing a range of services 
-                    that are tailored to meet your unique needs and ensure your complete peace of mind. 
-                    </p>
+                   <ul className='grid grid-cols-2 gap-2  text-lg font-medium lg:gap-3 xl:gap-6'>
+                    <li className='list-disc ml-3'>
+                    Customer Centeredness
+                    </li>
+                    <li className='list-disc ml-3'>
+                    Accuracy and Probity
+                    </li>
+                    <li className='list-disc ml-3'>
+                    Timeliness
+                    </li>
+                    <li className='list-disc ml-3'>
+                    Ethical standards
+                    </li>
+                   </ul>
 
-                    <button className='py-3 px-6 bg-[#2F7F93] font-medium uppercase'>
+                    <a href='#offer' className='py-3 px-6 bg-[#2F7F93] font-medium uppercase'>
                         What We Offer
-                    </button>
+                    </a>
                 </div>
             </div>
            

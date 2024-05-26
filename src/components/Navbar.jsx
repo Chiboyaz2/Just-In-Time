@@ -21,19 +21,19 @@ const Navbar = () => {
 
 
            <div className='hidden lg:flex items-center gap-3 uppercase text-lg font-semibold divide-x-2 divide-[#2F7F93]'>
-            <a href="#home" className='p-3 hover:bg-[#2F7F93] '>
+            <a href="#hero" className='p-3 hover:bg-[#2F7F93] '>
                 Home
             </a>
 
-            <a href="#home" className='p-3 hover:bg-[#2F7F93]'>
+            <a href="#about-us" className='p-3 hover:bg-[#2F7F93]'>
                 about
             </a>
 
-            <a href="#home" className='p-3 hover:bg-[#2F7F93]'>
+            <a href="#offer" className='p-3 hover:bg-[#2F7F93]'>
                 services 
             </a>
 
-            <a href="#home" className='p-3 hover:bg-[#2F7F93]'>
+            <a href="#contact" className='p-3 hover:bg-[#2F7F93]'>
                 contact
             </a>
 

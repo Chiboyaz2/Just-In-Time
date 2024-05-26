@@ -9,7 +9,7 @@ const Skills = () => {
                 md:w-1/2 px-6 pt-14 pb-28 one-end text-xl uppercase gap-4 font-semibold tracking-wider
                 lg:w-1/3'>
                     <p>
-                        we are experienced in prodiving you security
+                    Trusted Accounting Experts for Your Business Success
                     </p>
 
                     <div className='w-20 h-1 bg-white'>
@@ -21,9 +21,7 @@ const Skills = () => {
                 md:w-1/2 xl:pr-20'>
                     
                     <p className='font-medium'>
-                    With years of experience under our belt, we’ve honed our skills 
-                    to become experts in the security field. We know what it takes to 
-                    keep you and your property safe, and we’re committed to doing just that.
+                    With decades of combined experience, JiT Accountants excels in providing tailored financial solutions. We serve a diverse range of clients across England and Wales, ensuring top-notch service and wise counsel to help your business achieve maximum profitability and sustainability.
                     </p>
 
                     <div className='w-full flex flex-col gap-4'>
@@ -31,17 +29,16 @@ const Skills = () => {
                             <div className='w-full flex flex-row items-center justify-between uppercase tracking-wider font-semibold
                             text-xl'>
                                 <p>
-                                Equipment
+                                Client Satisfaction
                                 </p>
 
                                 <p>
-                                90%
+                                95%
                                 </p>
                             </div>
 
                             <div className='w-full h-1 bg-white rounded-md'>
-                                <div className='w-[90%] h-full bg-[#2F7F93] rounded-l-md'>
-
+                                <div className='w-[95%] h-full bg-[#2F7F93] rounded-l-md'>
                                 </div>
                             </div>
                         </div>
@@ -50,17 +47,16 @@ const Skills = () => {
                             <div className='w-full flex flex-row items-center justify-between uppercase tracking-wider font-semibold
                             text-xl'>
                                 <p>
-                                Security
+                                Expertise
                                 </p>
 
                                 <p>
-                                75%
+                                100%
                                 </p>
                             </div>
 
                             <div className='w-full h-1 bg-white rounded-md'>
-                                <div className='w-[75%] h-full bg-[#2F7F93] rounded-l-md'>
-
+                                <div className='w-[100%] h-full bg-[#2F7F93] rounded-l-md'>
                                 </div>
                             </div>
                         </div>
@@ -69,17 +65,16 @@ const Skills = () => {
                             <div className='w-full flex flex-row items-center justify-between uppercase tracking-wider font-semibold
                             text-xl'>
                                 <p>
-                                Experience
+                                Service Quality
                                 </p>
 
                                 <p>
-                                80%
+                                97%
                                 </p>
                             </div>
 
                             <div className='w-full h-1 bg-white rounded-md'>
-                                <div className='w-[80%] h-full bg-[#2F7F93] rounded-l-md'>
-
+                                <div className='w-[97%] h-full bg-[#2F7F93] rounded-l-md'>
                                 </div>
                             </div>
                         </div>
@@ -88,21 +83,21 @@ const Skills = () => {
                             <div className='w-full flex flex-row items-center justify-between uppercase tracking-wider font-semibold
                             text-xl'>
                                 <p>
-                                Protection
+                                Reliability
                                 </p>
 
                                 <p>
-                                60%
+                                94%
                                 </p>
                             </div>
 
                             <div className='w-full h-1 bg-white rounded-md'>
-                                <div className='w-[60%] h-full bg-[#2F7F93] rounded-l-md'>
-
+                                <div className='w-[94%] h-full bg-[#2F7F93] rounded-l-md'>
                                 </div>
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
            

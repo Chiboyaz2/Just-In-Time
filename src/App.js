@@ -10,7 +10,7 @@ import Services from './components/Services';
 import Skills from './components/Skills';
 import Team from './components/Team';
 
-function App() {
+function App() { 
   return (
     <div className="w-full">
       <Hero/>

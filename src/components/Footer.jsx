@@ -6,6 +6,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import PlaceIcon from '@mui/icons-material/Place';
 import PhoneIcon from '@mui/icons-material/Phone';
 import MailIcon from '@mui/icons-material/Mail';
+import Logo from '../images/001-removebg-preview.png'
 
 const Footer = () => {
     return (
@@ -15,9 +16,7 @@ const Footer = () => {
                     md:text-lg
                     xl:flex-row lg:p-14'>
                         <div className='flex flex-col gap-2 font-semibold py-12 px-6 border-b border-white xl:border-0'>
-                            <h1 className='text-xl '>
-                                Logo
-                            </h1>
+                            <img src={Logo} alt="" className='w-48 '/>
 
                             <p>
                             G10 Security Services is a new security services 
@@ -53,56 +52,56 @@ const Footer = () => {
                             </h1> 
 
                             <div className='flex flex-col gap-1'>
-                                    <a href="#home">
+                                    <a href="#hero">
                                         Home
                                     </a>                        
 
-                                    <a href="#home">
+                                    <a href="#about-us">
                                         About
                                     </a>  
 
-                                    <a href="#home">
+                                    <a href="#offer">
                                         Services
                                     </a>  
 
-                                    <a href="#home">
-                                        Sectors
+                                    <a href="#team">
+                                        Team
                                     </a>  
 
-                                    <a href="#home">
+                                    <a href="#contact">
                                         Contact
                                     </a>  
                             </div>
                             </div>
 
                             <div className='flex flex-col gap-3'>
-                            <h1 className='text-xl font-semibold
-                                lg:text-2xl'>
-                            Our Services
-                            </h1> 
+                                <h1 className='text-xl font-semibold lg:text-2xl'>
+                                    Our Services
+                                </h1> 
 
-                            <div className='flex flex-col gap-1'>
-                                    <a href="#home">
-                                    Security Services
-                                    </a>                        
+                                <div className='flex flex-col gap-1'>
+                                    <p>
+                                        Personalized Accounting
+                                    </p>                        
 
-                                    <a href="#home">
-                                    Reception Services
-                                    </a>  
+                                    <p>
+                                        Tax Planning and Preparation
+                                    </p>  
 
-                                    <a href="#home">
-                                    Electronic Security Services
-                                    </a>  
+                                    <p>
+                                        Business Consulting
+                                    </p>  
 
-                                    <a href="#home">
-                                    Support Services
-                                    </a>  
+                                    <p>
+                                        Financial Reporting
+                                    </p>  
 
-                                    <a href="#home">
-                                    Industrial Cleaning Services
-                                    </a>  
+                                    <p>
+                                        Payroll Services
+                                    </p>  
+                                </div>
                             </div>
-                            </div>
+
 
                             <div className='flex flex-col gap-3'>
                             <h1 className='text-xl font-semibold

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import CheckOutlinedIcon from '@mui/icons-material/CheckOutlined';
-import Man from '../images/man-suit.jpg'
-import Woman from '../images/woman.jpg'
+import Man from '../images/choose4.jpg'
+import Woman from '../images/choose3.jpg'
 
 const Choose = () => {
     const [count, setCount] = useState(0);
@@ -33,7 +33,7 @@ const Choose = () => {
                 <div className='relative w-full md:w-1/2 lg:h-[600px] xl:h-[450px]'>
                     <img src={Woman} alt="" className='lg:h-full w-full'/>
 
-                    <div className='absolute right-10 bottom-[-25px] shadow-xl shadow-gray-700 bg-white py-3 px-6
+                    {/* <div className='absolute right-10 bottom-[-25px] shadow-xl shadow-gray-700 bg-white py-3 px-6
                     flex flex-col gap-1 items-center'>
                         <p className='text-[#1F5961] text-3xl     
                         font-semibold tracking-wider'>
@@ -44,7 +44,7 @@ const Choose = () => {
                         <p className='text-[#292929] font-medium  tracking-wider uppercase text-center'>
                             professional guards
                         </p>
-                    </div>
+                    </div> */}
                 </div>
             </div>
             
@@ -59,14 +59,11 @@ const Choose = () => {
                 </div>
 
                 <p className='uppercase text-xl text-[#392929] font-semibold tracking-wider'>
-                Dedicated team with prompt response
+                Expert Financial Solutions Tailored to Your Needs
                 </p>
 
                 <p className='text-[#7E7E7E] tracking-wider font-medium lg:w-1/2'>
-                At G10 Security Services, we pride ourselves on 
-                delivering exceptional customer service. 
-                We work closely with our clients to understand their 
-                unique needs and requirements, and tailor our services accordingly.
+                At JiT Accountants, we are committed to delivering exceptional accounting services that cater to the specific needs of each client. Our goal is to help you achieve maximum profitability through personalized and trustworthy financial solutions. Here are six key reasons to choose us:
                 </p>
 
                 <div className='grid grid-cols-1 gap-2 text-[#292929] pb-4 border-b border-[#292929]
@@ -74,42 +71,42 @@ const Choose = () => {
                     <div className='flex items-center gap-1'>
                         <CheckOutlinedIcon />
                         <p>
-                        Risk Management
+                        Customized Service
                         </p>
                     </div>
 
                     <div className='flex items-center gap-1'>
                         <CheckOutlinedIcon />
                         <p>
-                        Protective Services
+                        Extensive Experience
                         </p>
                     </div>
 
                     <div className='flex items-center gap-1'>
                         <CheckOutlinedIcon />
                         <p>
-                        Executive Protection
+                        Client-Centric Approach
                         </p>
                     </div>
 
                     <div className='flex items-center gap-1'>
                         <CheckOutlinedIcon />
                         <p>
-                        Integrity
+                        Comprehensive Offerings
                         </p>
                     </div>
 
                     <div className='flex items-center gap-1'>
                         <CheckOutlinedIcon />
                         <p>
-                        Security Booth
+                        Trusted Advisors
                         </p>
                     </div>
 
                     <div className='flex items-center gap-1'>
                         <CheckOutlinedIcon />
                         <p>
-                        24/7 Support
+                        Time Efficiency
                         </p>
                     </div>
                 </div>
