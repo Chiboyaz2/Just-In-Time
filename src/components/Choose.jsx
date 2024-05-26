@@ -62,7 +62,7 @@ const Choose = () => {
                 Expert Financial Solutions Tailored to Your Needs
                 </p>
 
-                <p className='text-[#7E7E7E] tracking-wider font-medium lg:w-1/2'>
+                <p className='text-[#7E7E7E] tracking-wider font-medium w-full'>
                 At JiT Accountants, we are committed to delivering exceptional accounting services that cater to the specific needs of each client. Our goal is to help you achieve maximum profitability through personalized and trustworthy financial solutions. Here are six key reasons to choose us:
                 </p>
 
