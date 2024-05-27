@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import CheckOutlinedIcon from '@mui/icons-material/CheckOutlined';
-import Man from '../images/choose4.jpg'
-import Woman from '../images/choose3.jpg'
+import Man from '../images/Bookkeeping-1.png'
+import Woman from '../images/Business-Planning-Budgeting-Forecasting-1.png'
 
 const Choose = () => {
     const [count, setCount] = useState(0);
@@ -28,10 +28,10 @@ const Choose = () => {
         xl:flex-row xl:items-center'>
             <div className='w-full flex flex-col gap-6 
             md:flex-row md:items-center xl:w-1/2'>
-                <img src={Man} alt="" className='w-full md:w-1/2'/>
+                <img src={Woman} alt="" className='w-full md:w-1/2'/>
 
                 <div className='relative w-full md:w-1/2 lg:h-[600px] xl:h-[450px]'>
-                    <img src={Woman} alt="" className='lg:h-full w-full'/>
+                    <img src={Man} alt="" className='lg:h-full w-full'/>
 
                     {/* <div className='absolute right-10 bottom-[-25px] shadow-xl shadow-gray-700 bg-white py-3 px-6
                     flex flex-col gap-1 items-center'>

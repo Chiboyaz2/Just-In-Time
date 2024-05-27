@@ -1,12 +1,13 @@
 import React from 'react'
 import MenuBookOutlinedIcon from '@mui/icons-material/MenuBookOutlined';
 import PointOfSaleOutlinedIcon from '@mui/icons-material/PointOfSaleOutlined';
-import PeopleOutlineOutlinedIcon from '@mui/icons-material/PeopleOutlineOutlined';
-import BusinessCenterOutlinedIcon from '@mui/icons-material/BusinessCenterOutlined';
+// import PeopleOutlineOutlinedIcon from '@mui/icons-material/PeopleOutlineOutlined';
+// import BusinessCenterOutlinedIcon from '@mui/icons-material/BusinessCenterOutlined';
 import ReceiptOutlinedIcon from '@mui/icons-material/ReceiptOutlined';
 import AssignmentReturnOutlinedIcon from '@mui/icons-material/AssignmentReturnOutlined';
 import AddBusinessOutlinedIcon from '@mui/icons-material/AddBusinessOutlined';
 import StormOutlinedIcon from '@mui/icons-material/StormOutlined';
+import CurrencyPoundIcon from '@mui/icons-material/CurrencyPound';
 
 
 const Services = () => {
@@ -82,7 +83,7 @@ const Services = () => {
                             </p>
 
                             <p className='text-left'>
-                            Collaborating closely with your team, our accountants will analyse your processes and operations tooffer insights into your business's key drivers and profitability. Utilizing our expertise in costcontrol, management, and accounting, we identify potential areas of inefficiency, duplicated efforts,and revenue avenues. Through our technical skills and competencies, we help to enhance your business'sprofitability by implementing strategic measures to reduce waste and capitalize on opportunities.  
+                            Collaborating closely with your team, our accountants will analyse your processes and operations to offer insights into your business's key drivers and profitability. Utilizing our expertise in costcontrol, management, and accounting, we identify potential areas of inefficiency, duplicated efforts,and revenue avenues. Through our technical skills and competencies, we help to enhance your business'sprofitability by implementing strategic measures to reduce waste and capitalize on opportunities.  
                             </p>
                         </div>
                         
@@ -95,7 +96,7 @@ const Services = () => {
                     <div className='w-full h-68 flex flex-col justify-between bg-white'>
                         <div className='p-6 flex flex-col w-full gap-3'>
                             <div className=' text-[#2F7F93]'>
-                                <PeopleOutlineOutlinedIcon />
+                                <CurrencyPoundIcon />
                             </div>
 
                             <p className='uppercase text-[#292929] font-semibold text-lg tracking-wider'>
@@ -170,7 +171,7 @@ const Services = () => {
                     <div className='w-full h-68 flex flex-col justify-between bg-white'>
                         <div className='p-6 flex flex-col w-full gap-3'>
                             <div className=' text-[#2F7F93]'>
-                                <BusinessCenterOutlinedIcon />
+                                <CurrencyPoundIcon />
                             </div>
 
                             <p className='uppercase text-[#292929] font-semibold text-lg tracking-wider'>

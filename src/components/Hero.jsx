@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Logo from '../images/logo1.jpg';
+import Logo from '../images/very-bigger-logo-1.jpg';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import EmailIcon from '@mui/icons-material/Email';
 import Navbar from './Navbar';
@@ -36,9 +36,9 @@ const Hero = () => {
     }, []);
 
     return (
-        <div className='flex flex-col gap-6 w-full tracking-wider' id='hero'>
+        <div className='flex flex-col gap-1 w-full tracking-wider' id='hero'>
             <div className='w-full flex items-center justify-between p-6 lg:px-14'>
-                <img src={Logo} alt="" className='w-40 h-40'/>
+                <img src={Logo} alt="" className='w-40'/>
 
                 <div className='hidden md:flex items-center gap-8'>
                     <div className='flex gap-3'>
@@ -52,7 +52,7 @@ const Hero = () => {
                             </p>
 
                             <p className='font-semibold'>
-                            08000016701
+                            +447448319130
                             </p>
                         </div>
                     </div>
@@ -68,7 +68,7 @@ const Hero = () => {
                             </p>
 
                             <p className='font-semibold '>
-                            info@g10securityservices.co.uk
+                            info@jitaccountants.co.uk
                             </p>
                         </div>
                     </div>

@@ -6,7 +6,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import PlaceIcon from '@mui/icons-material/Place';
 import PhoneIcon from '@mui/icons-material/Phone';
 import MailIcon from '@mui/icons-material/Mail';
-import Logo from '../images/001-removebg-preview.png'
+import Logo from '../images/bigger-logo-png.png'
 
 const Footer = () => {
     return (
@@ -16,7 +16,7 @@ const Footer = () => {
                     md:text-lg
                     xl:flex-row lg:p-14'>
                         <div className='flex flex-col gap-2 font-semibold py-12 px-6 border-b border-white xl:border-0'>
-                            <img src={Logo} alt="" className='w-48 '/>
+                            <img src={Logo} alt="" className='w-40'/>
 
                             <p>
                             G10 Security Services is a new security services 
@@ -115,7 +115,8 @@ const Footer = () => {
                                         <PlaceIcon />
                                         </span>
                                         <span>
-                                        3rd Floor Office, 207 Regent Street, London, England, W1B 3HH
+                                        23, Beaumont Lodge Rd, 
+                                        Leicester, Leicestershire United.
                                         </span>
                                 </p> 
 
@@ -124,7 +125,7 @@ const Footer = () => {
                                         <PhoneIcon />
                                         </span>
                                         <span>
-                                        07040524341
+                                        +447448319130
                                         </span>
                                 </p>                     
 
@@ -133,7 +134,7 @@ const Footer = () => {
                                         <MailIcon />
                                         </span>
                                         <span className=''>
-                                        mail
+                                        info@jitaccountants.co.uk
                                         </span>
                                 </p> 
 

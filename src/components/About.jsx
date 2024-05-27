@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import RemoveRedEyeOutlinedIcon from '@mui/icons-material/RemoveRedEyeOutlined';
 import CrisisAlertOutlinedIcon from '@mui/icons-material/CrisisAlertOutlined';
-import aboutUs from '../images/about-us.jpg'
+import aboutUs from '../images/taxes-heaven.jpg'
 
 const About = () => {
     const [count, setCount] = useState(0);

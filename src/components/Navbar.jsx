@@ -19,48 +19,53 @@ const Navbar = () => {
                 {menuOpen ? <CloseIcon /> : <AppsIcon />}
             </div>
 
+            <div className={`flex-col items-center lg:hidden ${menuOpen ? 'absolute top-14 bg-white flex flex-col gap-3 text-[#292929] left-0 w-full items-start py-2 ' 
+            : 'hidden'}`}>
+                <a href="#hero" className='p-3 hover:bg-[#2F7F93] border-b w-full'>
+                    Home
+                </a>
+                <a href="#about-us" className='p-3 hover:bg-[#2F7F93] border-b w-full'>
+                    About
+                </a>
+                <a href="#offer" className='p-3 hover:bg-[#2F7F93] border-b w-full'>
+                    Services
+                </a>
+                <a href="#contact" className='p-3 hover:bg-[#2F7F93] w-full'>
+                    Contact
+                </a>
+            </div>
 
-           <div className='hidden lg:flex items-center gap-3 uppercase text-lg font-semibold divide-x-2 divide-[#2F7F93]'>
-            <a href="#hero" className='p-3 hover:bg-[#2F7F93] '>
-                Home
-            </a>
+            <div className='hidden lg:flex items-center gap-3 uppercase text-lg font-semibold divide-x-2 divide-[#2F7F93]'>
+                <a href="#hero" className='p-3 hover:bg-[#2F7F93] '>
+                    Home
+                </a>
+                <a href="#about-us" className='p-3 hover:bg-[#2F7F93]'>
+                    About
+                </a>
+                <a href="#offer" className='p-3 hover:bg-[#2F7F93]'>
+                    Services
+                </a>
+                <a href="#contact" className='p-3 hover:bg-[#2F7F93]'>
+                    Contact
+                </a>
+            </div>
 
-            <a href="#about-us" className='p-3 hover:bg-[#2F7F93]'>
-                about
-            </a>
-
-            <a href="#offer" className='p-3 hover:bg-[#2F7F93]'>
-                services 
-            </a>
-
-            <a href="#contact" className='p-3 hover:bg-[#2F7F93]'>
-                contact
-            </a>
-
-
-           </div>
-
-           <div className='flex items-center gap-3'>
-            <a href="#home">
-                <FacebookOutlinedIcon />
-            </a>
-
-            <a href="#home">
-                <TwitterIcon />
-            </a>
-
-            <a href="#home">
-                <YouTubeIcon />
-            </a>
-
-            <a href="#home">
-                <InstagramIcon />
-            </a>
-
-
-           </div>
+            <div className='flex items-center gap-3'>
+                <a href="#home">
+                    <FacebookOutlinedIcon />
+                </a>
+                <a href="#home">
+                    <TwitterIcon />
+                </a>
+                <a href="#home">
+                    <YouTubeIcon />
+                </a>
+                <a href="#home">
+                    <InstagramIcon />
+                </a>
+            </div>
         </div>
     )
 }
 
-export default Navbar
+export default Navbar;
