@@ -30,7 +30,7 @@ const Services = () => {
                     We specialize in providing top-notch accounting solutions tailored to meet the diverse needs of businesses, entrepreneurs, and individuals. As a freelance accounting firm, we offer a unique blend of expertise, flexibility, and personalized service, empowering our clients to navigate the complexities of accounting seamlessly.
                 </p>
 
-                <div className='grid grid-cols-1 gap-6 w-full mt-6 md:grid-cols-2 lg:grid-cols-4'>
+                <div className='grid grid-cols-1 gap-6 w-full mt-6 md:grid-cols- lg:grid-cols-3 xl:grid-cols-4'>
                     {services.map((service, index) => (
                         <div
                             key={index}
