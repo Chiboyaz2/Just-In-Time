@@ -293,3 +293,13 @@
   background-color: #000; /* Optional: to ensure it has a background */
 }
 
+
+/* Assuming you are using Tailwind CSS, here is the additional CSS */
+.h-68 {
+  height: 17rem; /* Adjust this value as needed for your design */
+}
+
+.h-auto {
+  height: auto;
+}
+
