@@ -5,12 +5,19 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import AppsIcon from '@mui/icons-material/Apps';
 import CloseIcon from '@mui/icons-material/Close';
+import AddIcon from '@mui/icons-material/Add';
+import RemoveIcon from '@mui/icons-material/Remove';
 
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
+    const [servicesOpen, setServicesOpen] = useState(false);
 
     const handleMenuToggle = () => {
         setMenuOpen(!menuOpen);
+    };
+
+    const handleServicesToggle = () => {
+        setServicesOpen(!servicesOpen);
     };
 
     return (
@@ -27,24 +34,60 @@ const Navbar = () => {
                 <a href="#about-us" className='p-3 hover:bg-[#2F7F93] border-b w-full'>
                     About
                 </a>
-                <a href="#offer" className='p-3 hover:bg-[#2F7F93] border-b w-full'>
-                    Services
-                </a>
+                <div className='relative w-full'>
+                    <p onClick={handleServicesToggle} className='p-3 cursor-pointer hover:bg-[#2F7F93] flex items-center justify-between'>
+                        <span>
+                            Services
+                        </span>
+                        <span>
+                            {servicesOpen ? <RemoveIcon /> : <AddIcon />}
+                        </span>
+                    </p>
+                    {servicesOpen && (
+                        <div className='absolute w-full p-2 text-xs text-black left-0 bg-white shadow-lg'>
+                            <a href="#service1" className='block px-4 py-2 hover:bg-[#2F7F93]'>Bookkeeping/Accounting</a>
+                            <a href="#service2" className='block px-4 py-2 hover:bg-[#2F7F93]'>Cost Control Services</a>
+                            <a href="#service3" className='block px-4 py-2 hover:bg-[#2F7F93]'>Individual/Personal Taxes</a>
+                            <a href="#service4" className='block px-4 py-2 hover:bg-[#2F7F93]'>Business/Corporate Taxes</a>
+                            <a href="#service5" className='block px-4 py-2 hover:bg-[#2F7F93]'>Payroll Management</a>
+                            <a href="#service6" className='block px-4 py-2 hover:bg-[#2F7F93]'>VAT Returns</a>
+                            <a href="#service7" className='block px-4 py-2 hover:bg-[#2F7F93]'>Company Formation</a>
+                            <a href="#service8" className='block px-4 py-2 hover:bg-[#2F7F93]'>Business Planning, Budgeting, and Forecasting</a>
+                        </div>
+                    )}
+                </div>
                 <a href="#contact" className='p-3 hover:bg-[#2F7F93] w-full'>
                     Contact
                 </a>
             </div>
 
             <div className='hidden lg:flex items-center gap-3 uppercase text-lg font-semibold divide-x-2 divide-[#2F7F93]'>
-                <a href="#hero" className='p-3 hover:bg-[#2F7F93] '>
+                <a href="#hero" className='p-3 hover:bg-[#2F7F93]'>
                     Home
                 </a>
                 <a href="#about-us" className='p-3 hover:bg-[#2F7F93]'>
                     About
                 </a>
-                <a href="#offer" className='p-3 hover:bg-[#2F7F93]'>
-                    Services
-                </a>
+                <div className='relative group'>
+                    <p className='p-3 cursor-pointer hover:bg-[#2F7F93] flex items-center'>
+                        <span>
+                            Services
+                        </span>
+                        <span>
+                            <AddIcon />
+                        </span>
+                    </p>
+                    <div className='absolute w-fit p-2 text-xs text-black left-0 top-14 bg-white shadow-lg hidden group-hover:block'>
+                        <a href="#service1" className='block px-4 py-2 hover:bg-[#2F7F93]'>Bookkeeping/Accounting</a>
+                        <a href="#service2" className='block px-4 py-2 hover:bg-[#2F7F93]'>Cost Control Services</a>
+                        <a href="#service3" className='block px-4 py-2 hover:bg-[#2F7F93]'>Individual/Personal Taxes</a>
+                        <a href="#service4" className='block px-4 py-2 hover:bg-[#2F7F93]'>Business/Corporate Taxes</a>
+                        <a href="#service5" className='block px-4 py-2 hover:bg-[#2F7F93]'>Payroll Management</a>
+                        <a href="#service6" className='block px-4 py-2 hover:bg-[#2F7F93]'>VAT Returns</a>
+                        <a href="#service7" className='block px-4 py-2 hover:bg-[#2F7F93]'>Company Formation</a>
+                        <a href="#service8" className='block px-4 py-2 hover:bg-[#2F7F93]'>Business Planning, Budgeting, and Forecasting</a>
+                    </div>
+                </div>
                 <a href="#contact" className='p-3 hover:bg-[#2F7F93]'>
                     Contact
                 </a>
@@ -65,7 +108,7 @@ const Navbar = () => {
                 </a>
             </div>
         </div>
-    )
-}
+    );
+};
 
 export default Navbar;

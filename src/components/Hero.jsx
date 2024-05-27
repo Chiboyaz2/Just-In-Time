@@ -8,6 +8,7 @@ const Hero = () => {
     const [heroClass, setHeroClass] = useState('hero2');
     const [contentClass, setContentClass] = useState('hero2-content');
     const [currentParagraph, setCurrentParagraph] = useState(0);
+    const [isSticky, setIsSticky] = useState(false);
 
     const paragraphs = [
         "JiT Accountants is an independent firm of chartered accountants who is dedicated to helping you and your company achieve the highest level of profitability. The ability to provide trusted and better options to our clients is the foundation of our success.",
@@ -33,6 +34,21 @@ const Hero = () => {
         }, 5000);
 
         return () => clearInterval(paragraphInterval); // Cleanup interval on component unmount
+    }, []);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            const hero = document.getElementById('hero');
+            const navbar = document.getElementById('navbar');
+            if (hero && navbar) {
+                const heroRect = hero.getBoundingClientRect();
+                setIsSticky(heroRect.bottom <= 0);
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll);
+
+        return () => window.removeEventListener('scroll', handleScroll);
     }, []);
 
     return (
@@ -76,8 +92,8 @@ const Hero = () => {
             </div> 
 
             <div className={`${heroClass} px-6 py-20 text-white lg:px-14 xl:py-32 relative`}>
-                <div className='absolute top-[-30px] left-[20px] bg-[#000] z-20 w-11/12
-                lg:left-[40px] xl:left-[60px]'>
+                <div id='navbar' className={`absolute top-[-30px] left-[20px] bg-[#000] z-20 w-11/12
+                lg:left-[40px] xl:left-[60px] ${isSticky ? 'sticky-navbar' : ''}`}>
                     <Navbar />
                 </div>
 

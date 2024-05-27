@@ -283,3 +283,13 @@
 .hero1-content, .hero2-content {
   transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
 }
+
+.sticky-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 50; /* Ensure it has a high z-index */
+  background-color: #000; /* Optional: to ensure it has a background */
+}
+

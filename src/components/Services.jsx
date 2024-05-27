@@ -27,9 +27,9 @@ const Services = () => {
                 </p>
 
                 <div className='grid grid-cols-1 gap-6 w-full mt-6
-                md:grid-cols-2 lg:grid-cols-3'>
-                    <div className='w-full h-68 flex flex-col justify-between bg-white'>
-                        <div className='p-6 flex flex-col w-full gap-3'>
+                md:grid-cols-2 lg:grid-cols-4'>
+                    <div className='w-full h-68 flex flex-col justify-between bg-white' id='service1'>
+                        <div className='p-6 flex flex-col w-full gap-3' >
                             <div className=' text-[#2F7F93]'>
                                 <MenuBookOutlinedIcon />
                             </div>
@@ -72,7 +72,7 @@ const Services = () => {
                         </button>
                     </div>
 
-                    <div className='w-full h-68 flex flex-col justify-between bg-white'>
+                    <div className='w-full h-68 flex flex-col justify-between bg-white' id='service2'>
                         <div className='p-6 flex flex-col w-full gap-3'>
                             <div className=' text-[#2F7F93]'>
                                 <PointOfSaleOutlinedIcon />
@@ -93,7 +93,7 @@ const Services = () => {
                         </button>
                     </div>
 
-                    <div className='w-full h-68 flex flex-col justify-between bg-white'>
+                    <div className='w-full h-68 flex flex-col justify-between bg-white' id='service3'>
                         <div className='p-6 flex flex-col w-full gap-3'>
                             <div className=' text-[#2F7F93]'>
                                 <CurrencyPoundIcon />
@@ -168,7 +168,7 @@ const Services = () => {
                         </button>
                     </div>
 
-                    <div className='w-full h-68 flex flex-col justify-between bg-white'>
+                    <div className='w-full h-68 flex flex-col justify-between bg-white' id='service4'>
                         <div className='p-6 flex flex-col w-full gap-3'>
                             <div className=' text-[#2F7F93]'>
                                 <CurrencyPoundIcon />
@@ -240,7 +240,7 @@ const Services = () => {
                         </button>
                     </div>
 
-                    <div className='w-full h-68 flex flex-col justify-between bg-white'>
+                    <div className='w-full h-68 flex flex-col justify-between bg-white' id='service5'>
                         <div className='p-6 flex flex-col w-full gap-3'>
                             <div className=' text-[#2F7F93]'>
                             <ReceiptOutlinedIcon />
@@ -274,7 +274,7 @@ const Services = () => {
                         </button>
                     </div>
 
-                    <div className='w-full h-68 flex flex-col justify-between bg-white'>
+                    <div className='w-full h-68 flex flex-col justify-between bg-white' id='service6'>
                         <div className='p-6 flex flex-col w-full gap-3'>
                             <div className=' text-[#2F7F93]'>
                                 <AssignmentReturnOutlinedIcon />
@@ -299,7 +299,7 @@ const Services = () => {
                         </button>
                     </div>
 
-                    <div className='w-full h-68 flex flex-col justify-between bg-white'>
+                    <div className='w-full h-68 flex flex-col justify-between bg-white' id='service7'>
                         <div className='p-6 flex flex-col w-full gap-3'>
                             <div className=' text-[#2F7F93]'>
                                 <AddBusinessOutlinedIcon />
@@ -366,7 +366,7 @@ const Services = () => {
                         </button>
                     </div>
 
-                    <div className='w-full h-68 flex flex-col justify-between bg-white'>
+                    <div className='w-full h-68 flex flex-col justify-between bg-white' id='service8'>
                         <div className='p-6 flex flex-col w-full gap-3'>
                             <div className=' text-[#2F7F93]'>
                                 <StormOutlinedIcon />
