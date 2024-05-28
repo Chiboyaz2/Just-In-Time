@@ -7,6 +7,7 @@ import AppsIcon from '@mui/icons-material/Apps';
 import CloseIcon from '@mui/icons-material/Close';
 import AddIcon from '@mui/icons-material/Add';
 import RemoveIcon from '@mui/icons-material/Remove';
+import Logo from '../images/LLL.png';
 
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -21,7 +22,11 @@ const Navbar = () => {
     };
 
     return (
-        <div className='p-3 w-full flex items-center justify-between'>
+        <div className='w-full flex items-center justify-between'>
+            
+
+            <img src={Logo} alt="" className='w-32'/>
+
             <div onClick={handleMenuToggle} className='cursor-pointer lg:hidden'>
                 {menuOpen ? <CloseIcon /> : <AppsIcon />}
             </div>
@@ -61,39 +66,40 @@ const Navbar = () => {
                 </a>
             </div>
 
-            <div className='hidden lg:flex items-center gap-3 uppercase text-lg font-semibold divide-x-2 divide-[#2F7F93]'>
-                <a href="#hero" className='p-3 hover:bg-[#2F7F93]'>
+            <div className='hidden lg:flex items-center gap-3 uppercase text-lg font-semibold text-[#2F7F93]'>
+                <a href="#hero" className='p-3 hover:bg-[#2F7F93] hover:text-white'>
                     Home
                 </a>
-                <a href="#about-us" className='p-3 hover:bg-[#2F7F93]'>
+                <a href="#about-us" className='p-3 hover:bg-[#2F7F93] hover:text-white'>
                     About
                 </a>
                 <div className='relative group'>
-                    <p className='p-3 cursor-pointer hover:bg-[#2F7F93] flex items-center'>
+                    <p className='p-3 cursor-pointer hover:bg-[#2F7F93] flex items-center justify-center hover:text-white'>
                         <span>
                             Services
                         </span>
-                        <span>
+                        <span className='mt-[-5px]'>
                             <AddIcon />
                         </span>
                     </p>
-                    <div className='absolute w-fit p-2 text-xs text-black left-0 top-14 bg-white shadow-lg hidden group-hover:block'>
-                        <a href="#service1" className='block px-4 py-2 hover:bg-[#2F7F93]'>Bookkeeping/Accounting</a>
-                        <a href="#service2" className='block px-4 py-2 hover:bg-[#2F7F93]'>Cost Control Services</a>
-                        <a href="#service3" className='block px-4 py-2 hover:bg-[#2F7F93]'>Individual/Personal Taxes</a>
-                        <a href="#service4" className='block px-4 py-2 hover:bg-[#2F7F93]'>Business/Corporate Taxes</a>
-                        <a href="#service5" className='block px-4 py-2 hover:bg-[#2F7F93]'>Payroll Management</a>
-                        <a href="#service6" className='block px-4 py-2 hover:bg-[#2F7F93]'>VAT Returns</a>
-                        <a href="#service7" className='block px-4 py-2 hover:bg-[#2F7F93]'>Company Formation</a>
-                        <a href="#service8" className='block px-4 py-2 hover:bg-[#2F7F93]'>Business Planning, Budgeting, and Forecasting</a>
+                    <div className='absolute w-fit p-2 text-xs text-black left-0 top-14 shadow-lg hidden group-hover:block
+                    bg-[#2F7F93] text-white'>
+                        <a href="#service1" className='block px-4 py-2 hover:bg-white hover:text-[#2F7F93]'>Bookkeeping/Accounting</a>
+                        <a href="#service2" className='block px-4 py-2 hover:bg-white hover:text-[#2F7F93]'>Cost Control Services</a>
+                        <a href="#service3" className='block px-4 py-2 hover:bg-white hover:text-[#2F7F93]'>Individual/Personal Taxes</a>
+                        <a href="#service4" className='block px-4 py-2 hover:bg-white hover:text-[#2F7F93]'>Business/Corporate Taxes</a>
+                        <a href="#service5" className='block px-4 py-2 hover:bg-white hover:text-[#2F7F93]'>Payroll Management</a>
+                        <a href="#service6" className='block px-4 py-2 hover:bg-white hover:text-[#2F7F93]'>VAT Returns</a>
+                        <a href="#service7" className='block px-4 py-2 hover:bg-white hover:text-[#2F7F93]'>Company Formation</a>
+                        <a href="#service8" className='block px-4 py-2 hover:bg-white hover:text-[#2F7F93]'>Business Planning, Budgeting, and Forecasting</a>
                     </div>
                 </div>
-                <a href="#contact" className='p-3 hover:bg-[#2F7F93]'>
+                <a href="#contact" className='p-3 hover:bg-[#2F7F93] hover:text-white'>
                     Contact
                 </a>
             </div>
 
-            <div className='flex items-center gap-3'>
+            <div className='flex items-center gap-3 hidden lg:flex'>
                 <a href="#home">
                     <FacebookOutlinedIcon />
                 </a>

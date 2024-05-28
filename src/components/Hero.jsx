@@ -53,8 +53,8 @@ const Hero = () => {
 
     return (
         <div className='flex flex-col gap-1 w-full tracking-wider' id='hero'>
-            <div className='w-full flex items-center justify-between p-6 lg:px-14'>
-                <img src={Logo} alt="" className='w-[300px] md:w-[150px]'/>
+            {/* <div className='w-full flex items-center justify-between p-6 lg:px-14'>
+                <img src={Logo} alt="" className='w-40'/>
 
                 <div className='hidden md:flex items-center gap-8'>
                     <div className='flex gap-3'>
@@ -89,13 +89,11 @@ const Hero = () => {
                         </div>
                     </div>
                 </div>
-            </div> 
+            </div>  */}
+            
 
             <div className={`${heroClass} px-6 py-20 text-white lg:px-14 xl:py-32 relative`}>
-                <div id='navbar' className={`absolute top-[-30px] left-[20px] bg-[#000] z-20 w-11/12
-                lg:left-[40px] xl:left-[60px] ${isSticky ? 'sticky-navbar' : ''}`}>
-                    <Navbar />
-                </div>
+                
 
                 <div className={`${contentClass} flex flex-col items-center gap-6 text-center 
                 md:items-start md:text-start md:w-1/2`}>
