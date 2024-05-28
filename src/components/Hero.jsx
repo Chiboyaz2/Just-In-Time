@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Logo from '../images/very-bigger-logo-1.jpg';
+import Logo from '../images/LLL.png';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import EmailIcon from '@mui/icons-material/Email';
 import Navbar from './Navbar';
@@ -54,7 +54,7 @@ const Hero = () => {
     return (
         <div className='flex flex-col gap-1 w-full tracking-wider' id='hero'>
             <div className='w-full flex items-center justify-between p-6 lg:px-14'>
-                <img src={Logo} alt="" className='w-40'/>
+                <img src={Logo} alt="" className='w-[300px] md:w-[150px]'/>
 
                 <div className='hidden md:flex items-center gap-8'>
                     <div className='flex gap-3'>

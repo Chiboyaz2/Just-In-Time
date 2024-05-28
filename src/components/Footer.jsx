@@ -6,7 +6,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import PlaceIcon from '@mui/icons-material/Place';
 import PhoneIcon from '@mui/icons-material/Phone';
 import MailIcon from '@mui/icons-material/Mail';
-import Logo from '../images/bigger-logo-png.png'
+import Logo from '../images/FFF.png'
 
 const Footer = () => {
     return (
@@ -16,12 +16,10 @@ const Footer = () => {
                     md:text-lg
                     xl:flex-row lg:p-14'>
                         <div className='flex flex-col gap-2 font-semibold py-12 px-6 border-b border-white xl:border-0'>
-                            <img src={Logo} alt="" className='w-40'/>
+                            <img src={Logo} alt="" className='w-[150px] xl:w-[100px]'/>
 
                             <p>
-                            G10 Security Services is a new security services 
-                            company with a fresh approach to protecting people 
-                            and businesses. 
+                            JiT Accountants is an independent firm of chartered accountants dedicated to helping SMEs across England and Wales achieve higher profitability. 
                             </p>
 
                             <div className='grid grid-cols-4 gap-1 w-1/2 text-[#42acc6]'>
@@ -115,8 +113,11 @@ const Footer = () => {
                                         <PlaceIcon />
                                         </span>
                                         <span>
-                                        23, Beaumont Lodge Rd, 
-                                        Leicester, Leicestershire United.
+                                        23 Beaumont Lodge Rd,
+                                        Leicester,
+                                        Leicestershire,
+                                        LE4 1BT,
+                                        United Kingdom
                                         </span>
                                 </p> 
 
@@ -149,7 +150,7 @@ const Footer = () => {
 
            <div className='w-full flex items-center justify-center bg-black text-white p-6 tex-sm gap-1
            md:text-lg text-center'>
-                <p>&copy; 2024 All rights reserved Designed By GodwinTech</p>
+                <p>&copy; 2024 All rights reserved Designed By <span className='italic md:text-base'>CHIBOYAZ</span></p>
            </div>
         </div>
     )

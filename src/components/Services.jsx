@@ -7,6 +7,8 @@ import Payroll from '../images/Payroll1.jpg';
 import Vat from '../images/Vat.jpg'
 import Company from '../images/Company.jpg'
 import Budget from '../images/Budget.jpg'
+import { motion } from 'framer-motion';
+
 
 const Services = () => {
     const [openService, setOpenService] = useState(null);
@@ -15,26 +17,46 @@ const Services = () => {
         setOpenService(openService === serviceId ? null : serviceId);
     };
 
+    const animationPropsLeft = {
+        initial: { x: -300, opacity: 0 },
+        whileInView: { x: 0, opacity: 1 },
+        transition: { duration: 5, ease: 'easeIn' },
+        viewport: { once: true }
+    };
+
+    const animationPropsRight = {
+        initial: { x: 300, opacity: 0 },
+        whileInView: { x: 0, opacity: 1 },
+        transition: { duration: 5, ease: 'easeIn' },
+        viewport: { once: true }
+    };
+
+
     return (
         <div className='w-full services mb-6' id='offer'>
             <div className='flex services-content flex-col gap-2 p-6 items-center text-center lg:p-14'>
-                <p className='italic text-[#1F5961] font-semibold tracking-wider'>
-                    What We Offer
-                </p>
+                <motion.div 
+                 className='flex flex-col gap-2 items-center'
+                 {...animationPropsRight}>
+                        <p className='italic text-[#1F5961] font-semibold tracking-wider'>
+                            What We Offer
+                        </p>
 
-                <p className='uppercase text-xl text-[#392929] font-semibold tracking-wider'>
-                    Tailored Accounting Solutions for Seamless Success
-                </p>
+                        <p className='uppercase text-xl text-[#392929] font-semibold tracking-wider'>
+                            Tailored Accounting Solutions for Seamless Success
+                        </p>
 
-                <p className='text-[#292929] tracking-wider text-lg lg:w-1/2'>
-                    We specialize in providing top-notch accounting solutions tailored to meet the diverse needs of businesses, entrepreneurs, and individuals. As a freelance accounting firm, we offer a unique blend of expertise, flexibility, and personalized service, empowering our clients to navigate the complexities of accounting seamlessly.
-                </p>
+                        <p className='text-[#292929] tracking-wider text-lg lg:w-1/2'>
+                            We specialize in providing top-notch accounting solutions tailored to meet the diverse needs of businesses, entrepreneurs, and individuals. As a freelance accounting firm, we offer a unique blend of expertise, flexibility, and personalized service, empowering our clients to navigate the complexities of accounting seamlessly.
+                        </p>
+                </motion.div>
 
-                <div className='grid grid-cols-1 gap-6 w-full mt-6 md:grid-cols- lg:grid-cols-3 xl:grid-cols-4'>
+                <motion.div className='grid grid-cols-1 gap-6 w-full mt-6 md:grid-cols- lg:grid-cols-3 xl:grid-cols-4'
+                {...animationPropsLeft}>
                     {services.map((service, index) => (
                         <div
                             key={index}
-                            className={`w-full flex flex-col justify-between bg-white transition-all duration-300 ${openService === index ? 'h-auto' : 'h-[400px]'}`}
+                            className={`w-full flex flex-col justify-between bg-white transition-all duration-300 ${openService === index ? 'h-auto' : 'h-[400px] md:h-[700px] lg:h-[400px]'}`}
                             id={`service${index + 1}`}
                         >
                             <div className='p-6 flex flex-col w-full gap-3'>
@@ -64,7 +86,7 @@ const Services = () => {
                             </button>
                         </div>
                     ))}
-                </div>
+                </motion.div>
             </div>
         </div>
     );
