@@ -37,7 +37,7 @@ const Skills = () => {
             <div className='skills-content text-white flex flex-col md:flex-row md:justify-between md:items-center'>
                 {/* Slide in from right animation */}
                 <motion.div
-                    className='w-full flex flex-col bg-[#2F7F93] md:w-1/2 px-6 pt-14 pb-28 one-end text-xl uppercase gap-4 font-semibold tracking-wider lg:w-1/3'
+                    className='w-full flex flex-col bg-primary-color md:w-1/2 px-6 pt-14 pb-28  text-xl uppercase gap-4 font-semibold tracking-wider lg:w-1/3'
                     ref={ref}
                     initial='hidden'
                     animate={inView ? 'visible' : 'hidden'}

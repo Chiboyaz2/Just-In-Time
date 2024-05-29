@@ -58,7 +58,7 @@ const About = () => {
                         <img src={aboutUs} alt="" className='lg:h-full w-full' />
 
                         <div className='absolute right-[-15px] top-[-15px] shadow-xl shadow-gray-700 bg-white py-3 px-6 flex flex-col gap-1 items-center'>
-                            <p className='text-[#1F5961] text-3xl font-semibold tracking-wider'>
+                            <p className='text-primary-color text-3xl font-semibold tracking-wider'>
                                 <span>{count}</span>
                                 <span>+</span>
                             </p>

@@ -76,7 +76,7 @@ const Contact = () => {
                     ></textarea>
 
                     <input type="submit" value="Send"
-                    className='p-3 w-1/3 bg-[#2F7F93] text-white font-medium tracking-wider uppercase' />
+                    className='p-3 w-1/3 bg-primary-color text-white font-medium tracking-wider uppercase cursor-pointer' />
                         
                 </motion.form>
 

@@ -98,7 +98,7 @@ const Hero = () => {
                 <div className={`${contentClass} flex flex-col items-center gap-6 text-center 
                 md:items-start md:text-start md:w-1/2`}>
                     <div className='flex flex-row gap-2 items-center'>
-                        <div className='w-20 h-[2px] bg-[#2F7F93] rounded'></div>
+                        <div className='w-20 h-[2px] bg-primary-color rounded'></div>
                         <p className='text-primary-color text-primary-size italic font-semibold'>
                         Just In Time Accountants
                         </p>

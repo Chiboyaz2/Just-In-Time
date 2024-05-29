@@ -29,16 +29,16 @@ const Navbar = () => {
                 {menuOpen ? <CloseIcon /> : <AppsIcon />}
             </div>
 
-            <div className={`flex-col  items-center lg:hidden ${menuOpen ? 'absolute top-20 bg-white flex flex-col gap-3 text-primary-color left-0 w-full items-start py-2 ' 
+            <div className={`flex-col font-medium  items-center lg:hidden ${menuOpen ? 'absolute top-20 bg-white flex flex-col gap-3 text-primary-color left-0 w-full items-start py-2 ' 
             : 'hidden'}`}>
-                <a href="#hero" className='p-3 hover:bg-[#2F7F93] border-b w-full'>
+                <a href="#hero" className='p-3 hover:bg-[#2F7F93] border-b w-full hover:bg-primary-color hover:text-white'>
                     Home
                 </a>
-                <a href="#about-us" className='p-3 hover:bg-[#2F7F93] border-b w-full'>
+                <a href="#about-us" className='p-3 hover:bg-[#2F7F93] border-b w-full hover:bg-primary-color hover:text-white'>
                     About
                 </a>
                 <div className='relative w-full border-b'>
-                    <p onClick={handleServicesToggle} className='p-3 cursor-pointer hover:bg-[#2F7F93] flex items-center justify-between'>
+                    <p onClick={handleServicesToggle} className='p-3 cursor-pointer hover:bg-primary-color hover:text-white flex items-center justify-between'>
                         <span>
                             Services
                         </span>
@@ -47,25 +47,25 @@ const Navbar = () => {
                         </span>
                     </p>
                     {servicesOpen && (
-                        <div className='absolute w-full p-2 text-xs text-black left-0 bg-white shadow-lg'>
-                            <a href="#service1" className='block px-4 py-2 hover:bg-[#2F7F93]'>Bookkeeping/Accounting</a>
-                            <a href="#service2" className='block px-4 py-2 hover:bg-[#2F7F93]'>Cost Control Services</a>
-                            <a href="#service3" className='block px-4 py-2 hover:bg-[#2F7F93]'>Individual/Personal Taxes</a>
-                            <a href="#service4" className='block px-4 py-2 hover:bg-[#2F7F93]'>Business/Corporate Taxes</a>
-                            <a href="#service5" className='block px-4 py-2 hover:bg-[#2F7F93]'>Payroll Management</a>
-                            <a href="#service6" className='block px-4 py-2 hover:bg-[#2F7F93]'>VAT Returns</a>
-                            <a href="#service7" className='block px-4 py-2 hover:bg-[#2F7F93]'>Company Formation</a>
-                            <a href="#service8" className='block px-4 py-2 hover:bg-[#2F7F93]'>Business Planning, Budgeting, and Forecasting</a>
+                        <div className='absolute w-full p-2 text-xs text-black left-0 bg-white shadow-lg font-medium'>
+                            <a href="#service1" className='block px-4 py-2 hover:bg-primary-color hover:text-white'>Bookkeeping/Accounting</a>
+                            <a href="#service2" className='block px-4 py-2 hover:bg-primary-color hover:text-white'>Cost Control Services</a>
+                            <a href="#service3" className='block px-4 py-2 hover:bg-primary-color hover:text-white'>Individual/Personal Taxes</a>
+                            <a href="#service4" className='block px-4 py-2 hover:bg-primary-color hover:text-white'>Business/Corporate Taxes</a>
+                            <a href="#service5" className='block px-4 py-2 hover:bg-primary-color hover:text-white'>Payroll Management</a>
+                            <a href="#service6" className='block px-4 py-2 hover:bg-primary-color hover:text-white'>VAT Returns</a>
+                            <a href="#service7" className='block px-4 py-2 hover:bg-primary-color hover:text-white'>Company Formation</a>
+                            <a href="#service8" className='block px-4 py-2 hover:bg-primary-color hover:text-white'>Business Planning, Budgeting, and Forecasting</a>
                         </div>
                     )}
                 </div>
-                <a href="#contact" className='p-3 hover:bg-[#2F7F93] w-full'>
+                <a href="#contact" className='p-3 hover:bg-[#2F7F93] w-full hover:bg-primary-color hover:text-white'>
                     Contact
                 </a>
             </div>
 
             <div className='hidden lg:flex items-center gap-3 uppercase text-lg font-primary-style text-primary-color'>
-                <a href="#hero" className='p-3 hover:bg-[#2F7F93] hover:text-white'>
+                <a href="#hero" className='p-3 hover:bg-primary-color hover:text-white'>
                     Home
                 </a>
                 <a href="#about-us" className='p-3 hover:bg-primary-color hover:text-white'>

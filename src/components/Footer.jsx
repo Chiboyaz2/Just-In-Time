@@ -22,7 +22,7 @@ const Footer = () => {
                             JiT Accountants is an independent firm of chartered accountants dedicated to helping SMEs across England and Wales achieve higher profitability. 
                             </p>
 
-                            <div className='grid grid-cols-4 gap-1 w-1/2 text-[#42acc6]'>
+                            <div className='grid grid-cols-4 gap-1 w-1/2 text-primary-color'>
                                 <div className='w-8 h-8 bg-black flex items-center justify-center'>
                                     <FacebookIcon />
                                 </div>
@@ -109,7 +109,7 @@ const Footer = () => {
 
                             <div className='flex flex-col gap-1'>
                                 <p className='flex items-center gap-1'>
-                                        <span className='text-[#42acc6]'>
+                                        <span className='text-primary-color'>
                                         <PlaceIcon />
                                         </span>
                                         <span>
@@ -122,7 +122,7 @@ const Footer = () => {
                                 </p> 
 
                                 <p className='flex items-center gap-2'>
-                                        <span className='text-[#42acc6]'>
+                                        <span className='text-primary-color'>
                                         <PhoneIcon />
                                         </span>
                                         <span>
@@ -131,7 +131,7 @@ const Footer = () => {
                                 </p>                     
 
                                 <p className='flex items-center gap-2 '>
-                                        <span className='text-[#42acc6]'>
+                                        <span className='text-primary-color'>
                                         <MailIcon />
                                         </span>
                                         <span className=''>

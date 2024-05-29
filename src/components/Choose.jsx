@@ -102,7 +102,7 @@ const Choose = () => {
                 variants={popBottomAnimation}
             >
                 <div className='flex flex-row gap-2 items-center'>
-                    <div className='w-14 h-[2px] bg-[#2F7F93] rounded-lg'></div>
+                    <div className='w-14 h-[2px] bg-primary-color rounded-lg'></div>
                     <p className='italic text-primary-color text-primary-size font-semibold tracking-wider'>
                         Why Choose Us
                     </p>
