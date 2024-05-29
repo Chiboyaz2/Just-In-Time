@@ -42,7 +42,7 @@ const About = () => {
         y: [200, 0],
         opacity: [0, 1],
         transition: {
-            duration: 5,
+            duration: 2,
             ease: 'easeInOut'
         }
     };
@@ -76,7 +76,7 @@ const About = () => {
                     className='flex flex-col gap-3 xl:w-1/2'
                     initial={{ y: 200, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
-                    transition={{ duration: 5, ease: 'easeInOut' }}
+                    transition={{ duration: 2, ease: 'easeInOut' }}
                 >
                     <div className='flex flex-row gap-2 items-center'>
                         <div className='w-14 h-[2px] bg-[#2F7F93] rounded-lg'></div>

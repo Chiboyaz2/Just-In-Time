@@ -19,7 +19,7 @@ const Affilate = () => {
                 className='text-lg font-medium tracking-wider uppercase pb-3 text-[#051d40] italic md:w-1/2 leading-9'
                 initial={{ y: '100%', opacity: 0 }}
                 animate={inView ? { y: 0, opacity: 1 } : {}}
-                transition={{ duration: 5, ease: 'easeInOut' }}
+                transition={{ duration: 2, ease: 'easeInOut' }}
             >
                 We are proud members of the{' '}
                 <span className='text-semibold text-2xl ml-1 mr-1'>ICAEW</span> and{' '}
@@ -33,7 +33,7 @@ const Affilate = () => {
                     className='w-32 h-16 lg:w-40 lg:w-20'
                     initial={{ y: '-100%', opacity: 0 }}
                     animate={inView ? { y: 0, opacity: 1 } : {}}
-                    transition={{ duration: 5, ease: 'easeInOut', delay: 0.5 }}
+                    transition={{ duration: 2, ease: 'easeInOut', delay: 0.5 }}
                 />
                 <motion.img
                     src={ICAEW}
@@ -41,7 +41,7 @@ const Affilate = () => {
                     className='w-48 h-16 lg:w-60 lg:w-20'
                     initial={{ y: '-100%', opacity: 0 }}
                     animate={inView ? { y: 0, opacity: 1 } : {}}
-                    transition={{ duration: 5, ease: 'easeInOut', delay: 0.5 }}
+                    transition={{ duration: 2, ease: 'easeInOut', delay: 0.5 }}
                 />
             </div>
         </div>

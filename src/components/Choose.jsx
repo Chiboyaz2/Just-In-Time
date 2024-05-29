@@ -31,7 +31,7 @@ const Choose = () => {
         visible: {
             x: 0,
             transition: {
-                duration: 5,
+                duration: 2,
                 ease: 'easeInOut'
             }
         }
@@ -43,7 +43,7 @@ const Choose = () => {
             y: 0,
             opacity: 1,
             transition: {
-                duration: 5,
+                duration: 2,
                 ease: 'easeInOut'
             }
         }
@@ -55,7 +55,7 @@ const Choose = () => {
             y: 0,
             opacity: 1,
             transition: {
-                duration: 5,
+                duration: 2,
                 ease: 'easeInOut'
             }
         }

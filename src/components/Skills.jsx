@@ -14,7 +14,7 @@ const Skills = () => {
             x: 0,
             opacity: 1, 
             transition: {
-                duration: 5,
+                duration: 2,
                 ease: 'easeInOut',
             },
         },
@@ -26,7 +26,7 @@ const Skills = () => {
             y: 0,
             opacity: 1,
             transition: {
-                duration: 5,
+                duration: 2,
                 ease: 'easeInOut',
             },
         },

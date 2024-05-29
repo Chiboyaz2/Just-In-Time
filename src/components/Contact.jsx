@@ -21,7 +21,7 @@ const Contact = () => {
                     className='flex flex-col gap-4 w-full text-[#8E8E8E] md:w-1/2 items-start md:justify-between'
                     initial={{ y: '100%', opacity: 0 }}
                     animate={textInView ? { y: 0, opacity: 1 } : {}}
-                    transition={{ duration: 5, ease: 'easeInOut' }}
+                    transition={{ duration: 2, ease: 'easeInOut' }}
                 >
                     <div className='w-full flex flex-col gap-4 md:flex-row'>
                         <input
@@ -57,7 +57,7 @@ const Contact = () => {
                     className='flex w-full flex-col gap-3 text-white mt-4 items-center tracking-wider md:w-1/2 md:items-start md:p-4'
                     initial={{ y: '-100%', opacity: 0 }}
                     animate={textInView ? { y: 0, opacity: 1 } : {}}
-                    transition={{ duration: 5, ease: 'easeInOut' }}
+                    transition={{ duration: 2, ease: 'easeInOut' }}
                 >
                     <p className='text-xl uppercase font-semibold'>Get in touch</p>
 

@@ -5,14 +5,14 @@ const Team = () => {
     const animationPropsLeft = {
         initial: { x: -300, opacity: 0 },
         whileInView: { x: 0, opacity: 1 },
-        transition: { duration: 5, ease: 'easeIn' },
+        transition: { duration: 2, ease: 'easeIn' },
         viewport: { once: true }
     };
 
     const animationPropsRight = {
         initial: { x: 300, opacity: 0 },
         whileInView: { x: 0, opacity: 1 },
-        transition: { duration: 5, ease: 'easeIn' },
+        transition: { duration: 2, ease: 'easeIn' },
         viewport: { once: true }
     };
 
