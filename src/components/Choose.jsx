@@ -180,7 +180,7 @@ const Choose = () => {
 
                 <p className='text-xs font-semibold'>
                     GOT QUESTIONS? YOU CAN CONTACT US{' '}
-                    <span className='ml-1 text-[#3694AF]'>HERE.</span>
+                    <a href='#contact' className='ml-1 text-[#3694AF]'>HERE.</a>
                 </p>
             </motion.div>
         </div>
