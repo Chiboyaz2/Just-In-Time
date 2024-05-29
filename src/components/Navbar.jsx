@@ -22,16 +22,14 @@ const Navbar = () => {
     };
 
     return (
-        <div className='w-full flex items-center justify-between'>
-            
-
-            <img src={Logo} alt="" className='w-32'/>
+        <div className='w-full flex items-center justify-between overflow-hidden'>
+            <img src={Logo} alt="Logo" className='w-32'/>
 
             <div onClick={handleMenuToggle} className='cursor-pointer lg:hidden'>
                 {menuOpen ? <CloseIcon /> : <AppsIcon />}
             </div>
 
-            <div className={`flex-col items-center lg:hidden ${menuOpen ? 'absolute top-14 bg-white flex flex-col gap-3 text-[#292929] left-0 w-full items-start py-2 ' 
+            <div className={`flex-col items-center lg:hidden ${menuOpen ? 'absolute top-20 bg-[#2F7F93] flex flex-col gap-3 text-white left-0 w-full items-start py-2 ' 
             : 'hidden'}`}>
                 <a href="#hero" className='p-3 hover:bg-[#2F7F93] border-b w-full'>
                     Home
@@ -39,7 +37,7 @@ const Navbar = () => {
                 <a href="#about-us" className='p-3 hover:bg-[#2F7F93] border-b w-full'>
                     About
                 </a>
-                <div className='relative w-full'>
+                <div className='relative w-full border-b'>
                     <p onClick={handleServicesToggle} className='p-3 cursor-pointer hover:bg-[#2F7F93] flex items-center justify-between'>
                         <span>
                             Services
@@ -82,8 +80,7 @@ const Navbar = () => {
                             <AddIcon />
                         </span>
                     </p>
-                    <div className='absolute w-fit p-2 text-xs text-black left-0 top-14 shadow-lg hidden group-hover:block
-                    bg-[#2F7F93] text-white'>
+                    <div className='absolute w-fit p-2 text-xs text-black left-0 top-14 shadow-lg hidden group-hover:block bg-[#2F7F93] text-white'>
                         <a href="#service1" className='block px-4 py-2 hover:bg-white hover:text-[#2F7F93]'>Bookkeeping/Accounting</a>
                         <a href="#service2" className='block px-4 py-2 hover:bg-white hover:text-[#2F7F93]'>Cost Control Services</a>
                         <a href="#service3" className='block px-4 py-2 hover:bg-white hover:text-[#2F7F93]'>Individual/Personal Taxes</a>
