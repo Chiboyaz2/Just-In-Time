@@ -22,7 +22,7 @@ const Navbar = () => {
     };
 
     return (
-        <div className='w-full flex items-center justify-between overflow-hidden'>
+        <div className='w-full flex items-center justify-between relative'>
             <img src={Logo} alt="Logo" className='w-32'/>
 
             <div onClick={handleMenuToggle} className='cursor-pointer lg:hidden'>
@@ -80,7 +80,7 @@ const Navbar = () => {
                             <AddIcon />
                         </span>
                     </p>
-                    <div className='absolute w-fit p-2 text-xs text-black left-0 top-14 shadow-lg hidden group-hover:block bg-[#2F7F93] text-white'>
+                    <div className='absolute w-fit p-2 text-xs text-white left-0 top-14 shadow-lg hidden group-hover:block bg-[#2F7F93] z-50'>
                         <a href="#service1" className='block px-4 py-2 hover:bg-white hover:text-[#2F7F93]'>Bookkeeping/Accounting</a>
                         <a href="#service2" className='block px-4 py-2 hover:bg-white hover:text-[#2F7F93]'>Cost Control Services</a>
                         <a href="#service3" className='block px-4 py-2 hover:bg-white hover:text-[#2F7F93]'>Individual/Personal Taxes</a>

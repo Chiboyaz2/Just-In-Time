@@ -16,7 +16,7 @@ import Team from './components/Team';
 function App() { 
   return (
     <div className="w-full">
-      <div id='navbar' className='h-fit w-full bg-white shadow-md fixed z-50 shadow-slate-950 px-10 
+      <div id='navbar' className='h-fit w-full bg-white shadow-md fixed z-10 shadow-slate-950 px-10 
       '>
         <Navbar />
       </div>
