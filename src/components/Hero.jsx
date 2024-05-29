@@ -99,7 +99,7 @@ const Hero = () => {
                 md:items-start md:text-start md:w-1/2`}>
                     <div className='flex flex-row gap-2 items-center'>
                         <div className='w-20 h-[2px] bg-[#2F7F93] rounded'></div>
-                        <p className='text-[#2F7F93] italic font-semibold'>
+                        <p className='text-primary-color text-primary-size italic font-semibold'>
                         Just In Time Accountants
                         </p>
                     </div>
@@ -109,12 +109,12 @@ const Hero = () => {
                     </p>
 
                     <div>
-                        <p className='font-medium text-lg'>
+                        <p className='font-medium text-primary-size'>
                             {paragraphs[currentParagraph]}
                         </p>
                     </div>
 
-                    <a href='#about-us' className='px-6 py-3 bg-[#2F7F93] uppercase font-medium'>
+                    <a href='#about-us' className='px-6 py-3 bg-primary-color uppercase font-medium'>
                         about us 
                     </a>
                 </div>

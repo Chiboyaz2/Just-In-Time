@@ -17,12 +17,12 @@ const Team = () => {
     };
 
     return (
-        <div className='p-6 w-full flex flex-col gap-4 md:flex-row lg:p-14'>
+        <div className='p-6 w-full flex flex-col gap-4 md:flex-row lg:p-14 text-lg'>
             <motion.div 
                 className='team-one px-6 py-14 flex flex-col text-white tracking-wider md:py-6 md:w-1/3'
                 {...animationPropsLeft}
             >
-                <div className='team-one-content flex flex-col gap-3'>
+                <div className='team-one-content flex flex-col gap-3 '>
                     <p className='mt-16 text-xl uppercase font-semibold'>
                         Customized Financial Expertise
                     </p>

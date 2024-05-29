@@ -54,7 +54,7 @@ const Skills = () => {
                     animate={inView ? 'visible' : 'hidden'}
                     variants={popInTop}
                 >
-                    <p className='font-medium'>
+                    <p className='font-medium text-primary-size'>
                         With decades of combined experience, JiT Accountants excels in providing tailored financial solutions. We serve a diverse range of clients across England and Wales, ensuring top-notch service and wise counsel to help your business achieve maximum profitability and sustainability.
                     </p>
 
@@ -67,7 +67,7 @@ const Skills = () => {
                             </div>
                             <div className='w-full h-1 bg-white rounded-md'>
                                 <motion.div
-                                    className='w-[95%] h-full bg-[#2F7F93] rounded-l-md'
+                                    className='w-[95%] h-full bg-primary-color rounded-l-md'
                                     initial={{ width: 0 }}
                                     animate={{ width: '95%' }}
                                     transition={{ duration: 2, delay: 1 }}
@@ -82,7 +82,7 @@ const Skills = () => {
                             </div>
                             <div className='w-full h-1 bg-white rounded-md'>
                                 <motion.div
-                                    className='w-[100%] h-full bg-[#2F7F93] rounded-l-md'
+                                    className='w-[100%] h-full bg-primary-color rounded-l-md'
                                     initial={{ width: 0 }}
                                     animate={{ width: '100%' }}
                                     transition={{ duration: 2, delay: 1.2 }}
@@ -97,7 +97,7 @@ const Skills = () => {
                             </div>
                             <div className='w-full h-1 bg-white rounded-md'>
                                 <motion.div
-                                    className='w-[97%] h-full bg-[#2F7F93] rounded-l-md'
+                                    className='w-[97%] h-full bg-primary-color rounded-l-md'
                                     initial={{ width: 0 }}
                                     animate={{ width: '97%' }}
                                     transition={{ duration: 2, delay: 1.4 }}
@@ -112,7 +112,7 @@ const Skills = () => {
                             </div>
                             <div className='w-full h-1 bg-white rounded-md'>
                                 <motion.div
-                                    className='w-[94%] h-full bg-[#2F7F93] rounded-l-md'
+                                    className='w-[94%] h-full bg-primary-color rounded-l-md'
                                     initial={{ width: 0 }}
                                     animate={{ width: '94%' }}
                                     transition={{ duration: 2, delay: 1.6 }}

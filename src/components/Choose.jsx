@@ -103,7 +103,7 @@ const Choose = () => {
             >
                 <div className='flex flex-row gap-2 items-center'>
                     <div className='w-14 h-[2px] bg-[#2F7F93] rounded-lg'></div>
-                    <p className='italic text-[#1F5961] font-semibold tracking-wider'>
+                    <p className='italic text-primary-color text-primary-size font-semibold tracking-wider'>
                         Why Choose Us
                     </p>
                 </div>
@@ -112,11 +112,11 @@ const Choose = () => {
                     Expert Financial Solutions Tailored to Your Needs
                 </p>
 
-                <p className='text-[#7E7E7E] tracking-wider font-medium w-full'>
+                <p className='text-[#000] tracking-wider text-primary-size font-medium w-full'>
                     At JiT Accountants, we are committed to delivering exceptional accounting services that cater to the specific needs of each client. Our goal is to help you achieve maximum profitability through personalized and trustworthy financial solutions. Here are six key reasons to choose us:
                 </p>
 
-                <div className='grid grid-cols-1 gap-2 text-[#292929] pb-4 border-b border-[#292929] md:grid-cols-2'>
+                <div className='grid grid-cols-1 gap-2 text-primary-size text-[#000] pb-4 border-b border-[#292929] md:grid-cols-2'>
                     <motion.div
                         className='flex items-center gap-1'
                         initial={{ scale: 0 }}
@@ -178,9 +178,9 @@ const Choose = () => {
                     </motion.div>
                 </div>
 
-                <p className='text-xs font-semibold'>
+                <p className='text-primary-size font-semibold'>
                     GOT QUESTIONS? YOU CAN CONTACT US{' '}
-                    <a href='#contact' className='ml-1 text-[#3694AF]'>HERE.</a>
+                    <a href='#contact' className='ml-1 text-primary-color'>HERE.</a>
                 </p>
             </motion.div>
         </div>

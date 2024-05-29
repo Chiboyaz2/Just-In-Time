@@ -80,14 +80,14 @@ const About = () => {
                 >
                     <div className='flex flex-row gap-2 items-center'>
                         <div className='w-14 h-[2px] bg-[#2F7F93] rounded-lg'></div>
-                        <p className='italic text-[#1F5961] font-semibold tracking-wider'>About Us</p>
+                        <p className='italic text-primary-color text-primary-size font-semibold tracking-wider'>About Us</p>
                     </div>
 
                     <p className='uppercase text-xl text-[#392929] font-semibold tracking-wider'>
                         Expert Financial Guidance for Business Success
                     </p>
 
-                    <p className='text-[#7E7E7E] tracking-wider font-medium'>
+                    <p className='text-[#000] text-primary-size tracking-wider font-medium'>
                         We are a team of highly qualified, committed, and professional chartered accountants with over 30 years of cumulative experience. We offer a wide range of accounting, tax, and business advising services to help our clients navigate the complex financial landscape of today's corporate environment. Our main goal is to deliver timely and exceptional high-quality service in order to meet the demands of our Stakeholders.
                         <br />
                         We take great pleasure in establishing and maintaining dependable connections with our clients that allow them to succeed and increase the value of their businesses through timely and personalised advice.
@@ -99,7 +99,7 @@ const About = () => {
 
                     <div className='mt-3 flex w-full flex-col gap-3 border-l border-[#292929] md:flex-row md:border-l-0 md:border-t'>
                         <div className='flex gap-3 p-3 md:py-5'>
-                            <div className='flex items-center justify-center bg-[#2F7F93] w-32 h-10 text-white'>
+                            <div className='flex items-center justify-center bg-primary-color w-32 h-10 text-white'>
                                 <RemoveRedEyeOutlinedIcon />
                             </div>
 
@@ -108,23 +108,23 @@ const About = () => {
                                     Vision statement
                                 </p>
 
-                                <p className='font-medium'>
+                                <p className='font-medium text-primary-size'>
                                     To be recognized as global accounting service with timely response to clients’ needs.
                                 </p>
                             </div>
                         </div>
 
-                        <div className='flex gap-3 px-3 py-5 border-t border-[#292929] md:border-t-0 md:border-l md:p-5'>
-                            <div className='flex items-center justify-center bg-[#2F7F93] w-28 h-10 text-white'>
+                        <div className='flex gap-3 px-3 py-5 border-t border-[#000] md:border-t-0 md:border-l md:p-5'>
+                            <div className='flex items-center justify-center bg-primary-color w-28 h-10 text-white'>
                                 <CrisisAlertOutlinedIcon />
                             </div>
 
-                            <div className='flex flex-col gap-1 text-[#292929]'>
+                            <div className='flex flex-col gap-1 text-[#000]'>
                                 <p className=' text-xl font-semibold uppercase tracking-wider'>
                                     STATEMENT OF PURPOSE
                                 </p>
 
-                                <p className='font-medium'>
+                                <p className='font-medium text-primary-size'>
                                     Adding value to clients’ businesses through timely provision of trusted professional services that will exceed the expectations of our stakeholders.
                                 </p>
                             </div>

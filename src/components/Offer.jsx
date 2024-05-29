@@ -32,7 +32,7 @@ const Offer = () => {
                             CORE VALUE
                         </motion.p>
                         <motion.ul
-                            className='grid grid-cols-2 gap-2 text-lg font-medium lg:gap-3 xl:gap-6'
+                            className='grid grid-cols-2 gap-2 font-medium lg:gap-3 xl:gap-6 text-primary-size'
                             animate={dropAnimation}
                         >
                             <li className='list-disc ml-3'>
@@ -50,7 +50,7 @@ const Offer = () => {
                         </motion.ul>
                         <motion.a
                             href='#offer'
-                            className='py-3 px-6 bg-[#2F7F93] font-medium uppercase'
+                            className='py-3 px-6 bg-primary-color font-medium uppercase'
                             animate={dropAnimation}
                         >
                             What We Offer

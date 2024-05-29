@@ -38,7 +38,7 @@ const Services = () => {
                 <motion.div 
                  className='flex flex-col gap-2 items-center'
                  {...animationPropsRight}>
-                        <p className='italic text-[#1F5961] font-semibold tracking-wider'>
+                        <p className='italic text-primary-color text-primary-size font-semibold tracking-wider'>
                             What We Offer
                         </p>
 
@@ -46,7 +46,7 @@ const Services = () => {
                             Tailored Accounting Solutions for Seamless Success
                         </p>
 
-                        <p className='text-[#292929] tracking-wider text-lg lg:w-1/2'>
+                        <p className='text-[#000] tracking-wider text-lg lg:w-1/2'>
                             We specialize in providing top-notch accounting solutions tailored to meet the diverse needs of businesses, entrepreneurs, and individuals. As a freelance accounting firm, we offer a unique blend of expertise, flexibility, and personalized service, empowering our clients to navigate the complexities of accounting seamlessly.
                         </p>
                 </motion.div>
@@ -80,7 +80,7 @@ const Services = () => {
                             </div>
                             <button
                                 onClick={() => toggleService(index)}
-                                className='w-full p-3 bg-[#2F7F93] tracking-wider font-medium text-white uppercase hover:bg-[#292929] hover:text-[#2F7F93]'
+                                className='w-full p-3 bg-primary-color tracking-wider font-medium text-white uppercase hover:bg-[#292929] hover:text-primary-color'
                             >
                                 {openService === index ? 'Show Less' : 'Learn More'}
                             </button>
