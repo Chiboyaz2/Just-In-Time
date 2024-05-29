@@ -22,14 +22,14 @@ const Navbar = () => {
     };
 
     return (
-        <div className='w-full flex items-center justify-between relative'>
+        <div className='w-full flex items-center justify-between '>
             <img src={Logo} alt="Logo" className='w-32'/>
 
             <div onClick={handleMenuToggle} className='cursor-pointer lg:hidden'>
                 {menuOpen ? <CloseIcon /> : <AppsIcon />}
             </div>
 
-            <div className={`flex-col items-center lg:hidden ${menuOpen ? 'absolute top-20 bg-[#2F7F93] flex flex-col gap-3 text-white left-0 w-full items-start py-2 ' 
+            <div className={`flex-col  items-center lg:hidden ${menuOpen ? 'absolute top-20 bg-white flex flex-col gap-3 text-[#292929] left-0 w-full items-start py-2 ' 
             : 'hidden'}`}>
                 <a href="#hero" className='p-3 hover:bg-[#2F7F93] border-b w-full'>
                     Home
