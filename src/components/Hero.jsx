@@ -104,7 +104,7 @@ const Hero = () => {
                         </p>
                     </div> */}
 
-                    <p className='uppercase text-2xl font-semibold lg:text-4xl xl:text-5xl leading-7'>
+                    <p className='uppercase text-2xl font-semibold lg:text-4xl xl:text-5xl leading-7 mt-8'>
                     Customized Accounting for Your Business Success
                     </p>
 
