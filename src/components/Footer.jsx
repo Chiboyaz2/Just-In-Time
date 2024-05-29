@@ -150,7 +150,7 @@ const Footer = () => {
 
            <div className='w-full flex items-center justify-center bg-black text-white p-6 tex-sm gap-1
            md:text-lg text-center'>
-                <p>&copy; 2024 All rights reserved Designed By <span className='italic md:text-base'>CHIBOYAZ</span></p>
+                <p>&copy; 2024 All rights reserved Designed By <span className=' md:text-base'>CHIBOYAZ</span></p>
            </div>
         </div>
     )
