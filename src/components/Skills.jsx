@@ -9,10 +9,10 @@ const Skills = () => {
     });
 
     const slideInRight = {
-        hidden: { x: '100%', opacity: 0 },
+        hidden: { x: '200', opacity: 0 },
         visible: {
             x: 0,
-            opacity: 1,
+            opacity: 1, 
             transition: {
                 duration: 5,
                 ease: 'easeInOut',

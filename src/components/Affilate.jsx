@@ -39,8 +39,8 @@ const Affilate = () => {
                     src={ICAEW}
                     alt='ICAEW'
                     className='w-48 h-16 lg:w-60 lg:w-20'
-                    initial={{ x: '100%', opacity: 0 }}
-                    animate={inView ? { x: 0, opacity: 1 } : {}}
+                    initial={{ y: '-100%', opacity: 0 }}
+                    animate={inView ? { y: 0, opacity: 1 } : {}}
                     transition={{ duration: 5, ease: 'easeInOut', delay: 0.5 }}
                 />
             </div>

@@ -18,14 +18,14 @@ const Services = () => {
     };
 
     const animationPropsLeft = {
-        initial: { x: -300, opacity: 0 },
-        whileInView: { x: 0, opacity: 1 },
+        initial: { y: 200, opacity: 0 },
+        whileInView: { y: 0, opacity: 1 },
         transition: { duration: 5, ease: 'easeIn' },
         viewport: { once: true }
     };
 
     const animationPropsRight = {
-        initial: { x: 300, opacity: 0 },
+        initial: { x: -300, opacity: 0 },
         whileInView: { x: 0, opacity: 1 },
         transition: { duration: 5, ease: 'easeIn' },
         viewport: { once: true }

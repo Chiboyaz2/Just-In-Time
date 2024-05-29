@@ -48,7 +48,7 @@ const Team = () => {
 
             <motion.div 
                 className='team-three px-6 py-14 flex flex-col text-white tracking-wider md:py-6 md:w-1/3'
-                {...animationPropsRight}
+                {...animationPropsLeft}
             >
                 <div className='team-three-content flex flex-col gap-3'>
                     <p className='mt-16 text-xl uppercase font-semibold'>
