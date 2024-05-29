@@ -97,12 +97,12 @@ const Hero = () => {
 
                 <div className={`${contentClass} flex flex-col items-center gap-6 text-center 
                 md:items-start md:text-start md:w-1/2`}>
-                    <div className='flex flex-row gap-2 items-center'>
+                    {/* <div className='flex flex-row gap-2 items-center'>
                         <div className='w-20 h-[2px] bg-primary-color rounded'></div>
                         <p className='text-primary-color text-primary-size italic font-semibold'>
                         Just In Time Accountants
                         </p>
-                    </div>
+                    </div> */}
 
                     <p className='uppercase text-2xl font-semibold lg:text-4xl xl:text-5xl leading-7'>
                     Customized Accounting for Your Business Success
