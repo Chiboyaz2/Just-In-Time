@@ -30,7 +30,7 @@ const Affilate = () => {
                 <motion.img
                     src={ICAN}
                     alt='ICAN'
-                    className='w-32 h-16 lg:w-40 lg:w-20'
+                    className='w-28 h-8 mt-5  md:w-40 md:h-12 md:mt-8'
                     initial={{ y: '-100%', opacity: 0 }}
                     animate={inView ? { y: 0, opacity: 1 } : {}}
                     transition={{ duration: 2, ease: 'easeInOut', delay: 0.5 }}
@@ -38,7 +38,7 @@ const Affilate = () => {
                 <motion.img
                     src={ICAEW}
                     alt='ICAEW'
-                    className='w-48 h-16 lg:w-60 lg:w-20'
+                    className='w-48 h-16 md:w-72 md:h-24'
                     initial={{ y: '-100%', opacity: 0 }}
                     animate={inView ? { y: 0, opacity: 1 } : {}}
                     transition={{ duration: 2, ease: 'easeInOut', delay: 0.5 }}
