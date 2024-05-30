@@ -55,7 +55,7 @@ const Skills = () => {
                     variants={popInTop}
                 >
                     <p className='font-medium text-primary-size'>
-                        With decades of combined experience, JiT Accountants excels in providing tailored financial solutions. We serve a diverse range of clients across England and Wales, ensuring top-notch service and wise counsel to help your business achieve maximum profitability and sustainability.
+                        With decades of combined experience, JiT Accountants excels in providing tailored accounting services. We serve a diverse range of clients across England and Wales, ensuring top-notch service and wise counsel to help your business achieve maximum profitability and sustainability.
                     </p>
 
                     <div className='w-full flex flex-col gap-4'>
