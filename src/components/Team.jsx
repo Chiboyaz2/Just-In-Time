@@ -24,7 +24,7 @@ const Team = () => {
             >
                 <div className='team-one-content flex flex-col gap-3 '>
                     <p className='mt-16 text-xl uppercase font-semibold'>
-                        Customized Financial Expertise
+                    PERSONALISED PROFESSIONAL SERVICES
                     </p>
                     <p className='font-medium'>
                         JiT Accountants is an independent firm of chartered accountants dedicated to helping you and your company achieve the highest level of profitability. We offer trusted and tailored solutions to meet the unique demands of our diverse clientele, ensuring top-notch service across England and Wales.
@@ -52,7 +52,7 @@ const Team = () => {
             >
                 <div className='team-three-content flex flex-col gap-3'>
                     <p className='mt-16 text-xl uppercase font-semibold'>
-                        Trusted Financial Advisors
+                    TRUSTED BUSINESS ADVISORS
                     </p>
                     <p className='font-medium'>
                         At JiT Accountants, our success is built on providing better options and wise counsel to our clients. With a growing clientele based primarily on recommendations, we ensure that our personalized services add value and sustainability to your business, no matter your industry or business size.

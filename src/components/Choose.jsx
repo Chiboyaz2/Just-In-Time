@@ -109,7 +109,7 @@ const Choose = () => {
                 </div>
 
                 <p className='uppercase text-xl text-[#392929] font-semibold tracking-wider'>
-                    Expert Financial Solutions Tailored to Your Needs
+                PROFESSIONAL SERVICE TAILORED TO MEETING YOUR NEEDS
                 </p>
 
                 <p className='text-[#000] tracking-wider text-primary-size font-medium w-full'>

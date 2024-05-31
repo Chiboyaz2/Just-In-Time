@@ -84,7 +84,7 @@ const About = () => {
                     </div>
 
                     <p className='uppercase text-xl text-[#392929] font-semibold tracking-wider'>
-                        Expert Financial Guidance for Business Success
+                    EXPERT IN ADDING VALUES FOR BUSINESS SUCCESS
                     </p>
 
                     <p className='text-[#000] text-primary-size tracking-wider font-medium'>
