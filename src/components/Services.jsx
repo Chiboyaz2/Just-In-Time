@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import BookKeeping from '../images/book-keeping.jpg'; // Ensure the correct path to the image
-import Cost from '../images/Cost.png'
-import Taxes2 from '../images/Taxes4.jpg';
-import Taxes3 from '../images/Taxes6.jpg'; // Ensure the correct path to
+import BookKeeping from '../images/force/post-10.jpg'; // Ensure the correct path to the image
+import Cost from '../images/force/post-8.jpg'
+import Taxes2 from '../images/force/post-2.jpg';
+import Taxes3 from '../images/force/post-5.jpg'; // Ensure the correct path to
 import Payroll from '../images/Payroll1.jpg';
-import Vat from '../images/Vat.jpg'
+import Vat from '../images/force/post-6.jpg'
 import Company from '../images/Company.jpg'
 import Budget from '../images/Budget.jpg'
 import { motion } from 'framer-motion';

@@ -31,8 +31,8 @@ const Contact = () => {
         console.log('Form Data:', data);
 
         emailjs
-            .sendForm('service_oe465hs', 'template_8jukvfm', form.current, {
-                publicKey: 'whePFhrpqUJxMiRzY',
+            .sendForm('service_sdjs8hg', 'template_gpa7awt', form.current, {
+                publicKey: 'YIrvhDKiGhlXlcOGE',
             })
             .then(
                 () => {

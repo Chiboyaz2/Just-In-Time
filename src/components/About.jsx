@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from 'react';
 import RemoveRedEyeOutlinedIcon from '@mui/icons-material/RemoveRedEyeOutlined';
 import CrisisAlertOutlinedIcon from '@mui/icons-material/CrisisAlertOutlined';
-import aboutUs from '../images/accounting1.jpg';
+import aboutUs from '../images/force/post-1.jpg';
 import { motion, useInView } from 'framer-motion';
 
 const About = () => {

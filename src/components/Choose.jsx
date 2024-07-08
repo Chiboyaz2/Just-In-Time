@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import CheckOutlinedIcon from '@mui/icons-material/CheckOutlined';
-import Man from '../images/Bookkeeping-1.png';
-import Woman from '../images/Business-Planning-Budgeting-Forecasting-1.png';
+import Man from '../images/force/post-7.jpg';
+import Woman from '../images/force/post-9.jpg';
 import { motion, useInView } from 'framer-motion';
 
 const Choose = () => {

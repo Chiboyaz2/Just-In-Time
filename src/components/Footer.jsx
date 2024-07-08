@@ -113,11 +113,7 @@ const Footer = () => {
                                         <PlaceIcon />
                                         </span>
                                         <span>
-                                        23 Beaumont Lodge Rd,
-                                        Leicester,
-                                        Leicestershire,
-                                        LE4 1BT,
-                                        United Kingdom
+                                        10 Hampton Close, Coalville, LE67 4DH, United Kingdom
                                         </span>
                                 </p> 
 
@@ -135,7 +131,7 @@ const Footer = () => {
                                         <MailIcon />
                                         </span>
                                         <span className=''>
-                                        info@jitaccountants.co.uk
+                                        info@jitaccountant.co.uk
                                         </span>
                                 </p> 
 
