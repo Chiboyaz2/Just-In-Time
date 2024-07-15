@@ -3,10 +3,10 @@ import BookKeeping from '../images/force/post-10.jpg'; // Ensure the correct pat
 import Cost from '../images/force/post-8.jpg'
 import Taxes2 from '../images/force/post-2.jpg';
 import Taxes3 from '../images/force/post-5.jpg'; // Ensure the correct path to
-import Payroll from '../images/Payroll1.jpg';
+import Payroll from '../images/latest/image9.jpg';
 import Vat from '../images/force/post-6.jpg'
-import Company from '../images/Company.jpg'
-import Budget from '../images/Budget.jpg'
+import Company from '../images/latest/image8.jpg'
+import Budget from '../images/latest/image3.jpg'
 import { motion } from 'framer-motion';
 
 

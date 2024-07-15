@@ -103,7 +103,7 @@
 
 .team-one {
   position: relative;
-  background-image: url(./images/computer.jpg);
+  background-image: url(./images/latest//image1.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -132,7 +132,7 @@
 
 .team-two {
   position: relative;
-  background-image: url(./images/team-two.jpg);
+  background-image: url(./images/latest/imga4.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -160,7 +160,7 @@
 
 .team-three {
   position: relative;
-  background-image: url(./images/coin-watch.jpg);
+  background-image: url(./images/latest/image6.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -229,7 +229,7 @@
 
 .hero1 {
   position: relative;
-  background-image: url(./images/hero1.jpg);
+  background-image: url(./images//latest/image2.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -254,7 +254,7 @@
 
 .hero2 {
   position: relative;
-  background-image: url(./images/hero2.jpg);
+  background-image: url(./images/latest/image7.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
