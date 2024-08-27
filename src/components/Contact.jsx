@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import emailjs from '@emailjs/browser';
@@ -15,6 +15,7 @@ const Contact = () => {
     });
 
     const form = useRef();
+    const [buttonLabel, setButtonLabel] = useState('Send');
 
     const sendEmail = (e) => {
         e.preventDefault();
@@ -22,8 +23,8 @@ const Contact = () => {
         // Capture form data
         const formData = new FormData(form.current);
         const data = {
-            user_name: formData.get('user_name'),
-            user_email: formData.get('user_email'),
+            name: formData.get('name'),
+            email: formData.get('email'),
             message: formData.get('message')
         };
 
@@ -31,15 +32,23 @@ const Contact = () => {
         console.log('Form Data:', data);
 
         emailjs
-            .sendForm('service_sdjs8hg', 'template_gpa7awt', form.current, {
+            .sendForm('service_sdjs8hg', 'template_ywpmdya', form.current, {
                 publicKey: 'YIrvhDKiGhlXlcOGE',
             })
             .then(
                 () => {
-                    console.log('SUCCESS!');
+                    setButtonLabel('SUCCESS!'); // Change button label to SUCCESS
+                    setTimeout(() => {
+                        form.current.reset(); // Reset the form after 1 second
+                        setButtonLabel('Send'); // Reset button label to Send
+                    }, 1000);
                 },
                 (error) => {
+                    setButtonLabel('Failed...'); // Change button label to Failed
                     console.log('FAILED...', error.text);
+                    setTimeout(() => {
+                        setButtonLabel('Send'); // Reset button label to Send
+                    }, 1000);
                 },
             );
     };
@@ -57,13 +66,13 @@ const Contact = () => {
                     <div className='w-full flex flex-col gap-4 md:flex-row'>
                         <input
                             type='text'
-                            name="user_name"
+                            name="name"
                             placeholder='Name'
                             className='w-full p-3 outline-0 md:w-1/2'
                         />
                         <input
                             type='email'
-                            name="user_email"
+                            name="email"
                             placeholder='Email'
                             className='w-full p-3 outline-0 md:w-1/2'
                         />
@@ -75,7 +84,7 @@ const Contact = () => {
                         className='w-full p-3 outline-0 h-28'
                     ></textarea>
 
-                    <input type="submit" value="Send"
+                    <input type="submit" value={buttonLabel}
                     className='p-3 w-1/3 bg-primary-color text-white font-medium tracking-wider uppercase cursor-pointer' />
                         
                 </motion.form>
